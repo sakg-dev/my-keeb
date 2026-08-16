@@ -3493,7 +3493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 326.39 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3573,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3633,7 +3633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04395392-7a3e-433d-9094-3076eadcd2a4")
-		(property "Reference" "D74"
+		(property "Reference" "D13"
 			(at 314.96 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3719,7 +3719,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D74")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3757,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 133.35 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3837,7 +3837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 153.67 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0abbeeec-54f4-4ec5-ba12-03a8d455abbb")
-		(property "Reference" "D90"
+		(property "Reference" "D29"
 			(at 351.79 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +3983,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D90")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e07e411-4dd5-482d-8b7f-5f56ff0c6fe0")
-		(property "Reference" "D122"
+		(property "Reference" "D61"
 			(at 351.79 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +4087,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D122")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -4105,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e306f44-3ed2-4393-bcce-107edbe99639")
-		(property "Reference" "D91"
+		(property "Reference" "D30"
 			(at 63.5 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4191,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D91")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -4229,7 +4229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 307.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15dbb5b7-54a5-4f66-9f58-a9c280a54d8c")
-		(property "Reference" "D89"
+		(property "Reference" "D28"
 			(at 334.01 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +4375,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D89")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f2d4e7-8ab7-4849-a4b6-f9461db2dac4")
-		(property "Reference" "D109"
+		(property "Reference" "D48"
 			(at 161.29 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +4479,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D109")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f0fcc9-ff6f-4d97-a1bd-4b4e4c006c60")
-		(property "Reference" "D75"
+		(property "Reference" "D14"
 			(at 334.01 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4583,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D75")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4601,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f32c24-8620-410e-a6a8-f574041d8495")
-		(property "Reference" "D98"
+		(property "Reference" "D37"
 			(at 232.41 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4687,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D98")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec24b16-5921-4a9c-897d-1b8bba8d0060")
-		(property "Reference" "D101"
+		(property "Reference" "D40"
 			(at 314.96 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +4791,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D101")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -4809,7 +4809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eee0520-d26c-4332-9e0b-9a8d0fd5baf4")
-		(property "Reference" "D84"
+		(property "Reference" "D23"
 			(at 232.41 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +4895,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D84")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f767fc7-a1de-4166-a58e-d824cfc6bbc4")
-		(property "Reference" "D79"
+		(property "Reference" "D18"
 			(at 102.87 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,7 +4999,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D79")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 55.88 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5097,7 +5097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24ba0ddc-2460-47c5-9252-8884e01883b4")
-		(property "Reference" "D66"
+		(property "Reference" "D5"
 			(at 140.97 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5183,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D66")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2548761d-acf2-4a9d-b122-8b0a08ebd556")
-		(property "Reference" "D81"
+		(property "Reference" "D20"
 			(at 140.97 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,7 +5287,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D81")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -5305,7 +5305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2df9e1e9-fe0b-4855-ac93-0c617c045af8")
-		(property "Reference" "D115"
+		(property "Reference" "D54"
 			(at 351.79 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5391,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D115")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4ae36b-918e-4130-a0c8-ed5aea2fd2ee")
-		(property "Reference" "D63"
+		(property "Reference" "D2"
 			(at 83.82 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5495,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D63")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5613,7 +5613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 224.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5673,7 +5673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3721de-f7a2-49b8-a679-b4797041f0fc")
-		(property "Reference" "D70"
+		(property "Reference" "D9"
 			(at 232.41 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +5759,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D70")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5777,7 +5777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee42e71-9b57-4065-aab2-36a0aa25ba14")
-		(property "Reference" "D97"
+		(property "Reference" "D36"
 			(at 209.55 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D97")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41783e2b-663d-485f-99e3-f0462e54e2b0")
-		(property "Reference" "D116"
+		(property "Reference" "D55"
 			(at 63.5 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +5967,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D116")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 55.88 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 245.11 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 133.35 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48fa4e9c-96b7-4be9-9da4-5320c3070190")
-		(property "Reference" "D83"
+		(property "Reference" "D22"
 			(at 209.55 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,7 +6311,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D83")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4917f636-f708-4210-9839-d008131f93b1")
-		(property "Reference" "D94"
+		(property "Reference" "D33"
 			(at 121.92 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +6415,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D94")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cbf7fe1-1443-4ffa-8a65-726c47a88686")
-		(property "Reference" "D103"
+		(property "Reference" "D42"
 			(at 351.79 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6519,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D103")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -6537,7 +6537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d58d7c4-3fd2-4d89-91f7-847546f3aeaa")
-		(property "Reference" "D113"
+		(property "Reference" "D52"
 			(at 271.78 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D113")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -6661,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "511a10c6-0a1a-494a-aeab-bd11ecb1e93d")
-		(property "Reference" "D85"
+		(property "Reference" "D24"
 			(at 252.73 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6807,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D85")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6845,7 +6845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6905,7 +6905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a8edc63-ab1b-49d8-8e76-c713af2232e4")
-		(property "Reference" "D96"
+		(property "Reference" "D35"
 			(at 161.29 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +6991,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D96")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 153.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7089,7 +7089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ea9b6bc-b329-4748-9d68-ccbe7366f595")
-		(property "Reference" "D112"
+		(property "Reference" "D51"
 			(at 252.73 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +7175,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D112")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -7213,7 +7213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 201.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 153.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7533,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7613,7 +7613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 326.39 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7673,7 +7673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a30dd14-ffd5-489c-a680-bb167266a8c2")
-		(property "Reference" "D114"
+		(property "Reference" "D53"
 			(at 314.96 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,7 +7759,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D114")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aaab732-8d6d-4e19-9b34-fab49c922a30")
-		(property "Reference" "D69"
+		(property "Reference" "D8"
 			(at 209.55 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +7863,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D69")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7881,7 +7881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7bd2d9-3d0b-4159-8e06-51ac28b14469")
-		(property "Reference" "D111"
+		(property "Reference" "D50"
 			(at 232.41 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7967,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D111")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -7985,7 +7985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e39d1b4-f48b-4cea-a73a-e6cd7185bfef")
-		(property "Reference" "D118"
+		(property "Reference" "D57"
 			(at 140.97 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8071,7 +8071,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D118")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -8089,7 +8089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebbb3e9-4d4d-4bc0-b2cf-c08153be63f8")
-		(property "Reference" "D105"
+		(property "Reference" "D44"
 			(at 83.82 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,7 +8175,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D105")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -8213,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 201.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8273,7 +8273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6face903-595f-4c32-86e2-bfbedf91f88d")
-		(property "Reference" "D117"
+		(property "Reference" "D56"
 			(at 121.92 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +8359,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D117")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -8397,7 +8397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 344.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 307.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8613,7 +8613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b4f48a-bef1-4483-adb6-d769c48bdf2f")
-		(property "Reference" "D67"
+		(property "Reference" "D6"
 			(at 161.29 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8699,7 +8699,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D67")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8737,7 +8737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 344.17 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8797,7 +8797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7841fe28-0a1f-41de-9d29-2321113c7d62")
-		(property "Reference" "D88"
+		(property "Reference" "D27"
 			(at 314.96 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8883,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D88")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -8921,7 +8921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 55.88 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +8981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c2778e-e16f-469d-9213-f5f81dd4ccfa")
-		(property "Reference" "D76"
+		(property "Reference" "D15"
 			(at 351.79 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9067,7 +9067,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D76")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 224.79 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9185,7 +9185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 95.25 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9245,7 +9245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801c193c-b46d-4a6e-8ec2-b76b60eaa1b4")
-		(property "Reference" "D92"
+		(property "Reference" "D31"
 			(at 83.82 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9331,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D92")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -9445,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 153.67 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9505,7 +9505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f4835e-dcb8-400e-9bb4-ccffa4ae73cd")
-		(property "Reference" "D99"
+		(property "Reference" "D38"
 			(at 252.73 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,7 +9591,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D99")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -9609,7 +9609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87a19820-2978-45df-bb1e-92075aecaadf")
-		(property "Reference" "D100"
+		(property "Reference" "D39"
 			(at 271.78 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9695,7 +9695,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D100")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -9733,7 +9733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 95.25 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9793,7 +9793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa01a70-7c2f-497d-be78-e5fc2248403d")
-		(property "Reference" "D77"
+		(property "Reference" "D16"
 			(at 63.5 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9879,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D77")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -9897,7 +9897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d090492-b0d7-427d-b9e8-b49021a80517")
-		(property "Reference" "D119"
+		(property "Reference" "D58"
 			(at 161.29 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +9983,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D119")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -10021,7 +10021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 344.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10101,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 133.35 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10181,7 +10181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 245.11 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 153.67 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10321,7 +10321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9851731d-e226-47a5-937c-2dae484b86fd")
-		(property "Reference" "D93"
+		(property "Reference" "D32"
 			(at 102.87 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10407,7 +10407,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D93")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987a4682-6156-484b-9a84-cc558fa1e664")
-		(property "Reference" "D120"
+		(property "Reference" "D59"
 			(at 209.55 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10512,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D120")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -10530,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987bc9f1-bb5f-4740-9bfc-3bb3ef3def84")
-		(property "Reference" "D121"
+		(property "Reference" "D60"
 			(at 252.73 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +10616,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D121")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -10634,7 +10634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c916205-678e-428c-87b0-7ee25d7e9ae9")
-		(property "Reference" "D110"
+		(property "Reference" "D49"
 			(at 209.55 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10720,7 +10720,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D110")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -10758,7 +10758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 245.11 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 201.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10918,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10978,7 +10978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7521a77-b003-4c8b-9246-40a90d9bc92e")
-		(property "Reference" "D73"
+		(property "Reference" "D12"
 			(at 295.91 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11064,7 +11064,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D73")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 288.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11182,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac94652d-5a66-45b4-a914-d5dfcaefd910")
-		(property "Reference" "D87"
+		(property "Reference" "D26"
 			(at 295.91 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +11328,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D87")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -11366,7 +11366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 264.16 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11446,7 +11446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 76.2 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11506,7 +11506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2b1ebd-defb-490f-a6cc-c576122809f2")
-		(property "Reference" "D78"
+		(property "Reference" "D17"
 			(at 83.82 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11592,7 +11592,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D78")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 326.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11690,7 +11690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef6783b-eafb-43c8-b15e-11164e3d997c")
-		(property "Reference" "D68"
+		(property "Reference" "D7"
 			(at 181.61 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,7 +11776,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D68")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11814,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 245.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11894,7 +11894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 201.93 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11954,7 +11954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79fc3fc-4483-4723-9fb5-e06b9a1ff5cb")
-		(property "Reference" "D102"
+		(property "Reference" "D41"
 			(at 334.01 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12040,7 +12040,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D102")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -12078,7 +12078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12138,7 +12138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ecd44b-c311-4c4d-99bf-89ec0907c456")
-		(property "Reference" "D65"
+		(property "Reference" "D4"
 			(at 121.92 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12224,7 +12224,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D65")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12262,7 +12262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 344.17 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12398,7 +12398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c370ee70-8173-4a10-b62b-bf5b0f3ce403")
-		(property "Reference" "D72"
+		(property "Reference" "D11"
 			(at 271.78 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12484,7 +12484,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D72")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -12522,7 +12522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12602,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 288.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12682,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 201.93 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12742,7 +12742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba23d79-cbf0-43cf-94fa-e39a207e20c9")
-		(property "Reference" "D95"
+		(property "Reference" "D34"
 			(at 140.97 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,7 +12828,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D95")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -12922,7 +12922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce35e453-2106-4a92-8525-ec5a5fb7d2ae")
-		(property "Reference" "D64"
+		(property "Reference" "D3"
 			(at 102.87 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13008,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D64")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13026,7 +13026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a7494c-dca2-44f4-8e8e-090016f2f36a")
-		(property "Reference" "D107"
+		(property "Reference" "D46"
 			(at 121.92 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13112,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D107")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 55.88 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13230,7 +13230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13290,7 +13290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d43a6768-2db1-4774-8e93-a0982f4a37f7")
-		(property "Reference" "D80"
+		(property "Reference" "D19"
 			(at 121.92 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13376,7 +13376,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D80")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -13414,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 307.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13570,7 +13570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 344.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13650,7 +13650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13730,7 +13730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 173.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13810,7 +13810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13890,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13970,7 +13970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 264.16 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14050,7 +14050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14110,7 +14110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71b5f3a-5efc-4c66-bf7f-7a0b029d7364")
-		(property "Reference" "D82"
+		(property "Reference" "D21"
 			(at 161.29 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14196,7 +14196,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D82")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -14214,7 +14214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c05d9f-3c67-4a43-ab4f-5751d47410b2")
-		(property "Reference" "D104"
+		(property "Reference" "D43"
 			(at 63.5 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14300,7 +14300,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D104")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -14338,7 +14338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 245.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14398,7 +14398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecdb8d9b-7606-44c5-b300-09c9da70570e")
-		(property "Reference" "D71"
+		(property "Reference" "D10"
 			(at 252.73 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +14484,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D71")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14502,7 +14502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeb9dd9a-d714-4cbf-a017-a453088cf164")
-		(property "Reference" "D62"
+		(property "Reference" "D1"
 			(at 63.5 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14588,7 +14588,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D62")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14606,7 +14606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08dd03d-0471-4616-a58e-e8de75870f53")
-		(property "Reference" "D86"
+		(property "Reference" "D25"
 			(at 271.78 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14692,7 +14692,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D86")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -14710,7 +14710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f33cae64-0f57-48ad-95e9-5dd72d0765ce")
-		(property "Reference" "D108"
+		(property "Reference" "D47"
 			(at 140.97 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +14796,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D108")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -14814,7 +14814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ac3650-7eec-41ca-8423-15a10156e179")
-		(property "Reference" "D106"
+		(property "Reference" "D45"
 			(at 102.87 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14900,7 +14900,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/21d97e4e-77e4-437a-9e3a-2c520572be03"
-					(reference "D106")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -14938,7 +14938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 95.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15018,7 +15018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)

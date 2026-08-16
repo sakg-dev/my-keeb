@@ -2,7 +2,7 @@
 INFO:
  - total logged hr: _
  - source: https://lapse.hackclub.com/user/@sakgdev14
- - tldr: me yapping while building keyboard
+ - tldr: watch me yapping while building keyboard
 ------------
 
 ## Deciding keyboard - Aug 12 - 17:48
@@ -43,3 +43,12 @@ btw heres the schematics:
 ![](./imgs/sch_half_done_2i.png)
 ![](./imgs/sch_half_done_2ii.png)
 ![](./imgs/sch_half_done_2iii.png)
+
+## Final Schematics - Aug 16 - 08:31 (took 56m)
+so most of my doubt were clear now hence i began doing last part of schematics.
+At first instead of providing a single 5v trace to all 61 rgbs, i did 6 seperate, then i added mounting holes even though i am doing gasket mount as it might be useful in future..
+Then i started assigning footprint, many were already assigned as i am reusing the prev failed keeb schematics. it might have been faster had i not wanted to know why specific footprint we using. i started with capacitor but realized we also need a large capacitor that would seat near main 5v input b4 other in rgb matrix, so did sm research and used 470 uf capacitor. then added 330 ohm resistor in rgb data before first dinput.
+then after verifying that i was doing everything right, i annoted the numbers, then assigned footprint of mounting holes, switch(normal to kailh for hotswappable), resistors and capacitors.
+So finally schemetics is done - hopefully. Heres the img of my led matrix as i did few changes: 
+![](./imgs/rgb_matrix_sch.png)
+

@@ -160,6 +160,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
@@ -590,12 +730,6 @@
 		(uuid "05e5d2fa-892f-4051-833f-f52d139143fe")
 	)
 	(junction
-		(at 31.75 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0604d275-d1ef-4a0d-84fd-a8d0e2111fe8")
-	)
-	(junction
 		(at 457.2 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -710,12 +844,6 @@
 		(uuid "16fdab82-16f6-4627-a316-13e07758a46e")
 	)
 	(junction
-		(at 43.18 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18047e0f-8723-494a-8e2f-6febd70a487c")
-	)
-	(junction
 		(at 247.65 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -752,6 +880,12 @@
 		(uuid "1e1b019f-3c51-4a50-9544-c65befad9923")
 	)
 	(junction
+		(at 43.18 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f792581-a3ed-4e9b-9846-b761b5bdc5b8")
+	)
+	(junction
 		(at 247.65 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -780,12 +914,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25bd1945-6a38-44d8-bcbf-f1767d5201ef")
-	)
-	(junction
-		(at 43.18 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25dfc8b4-1f03-4f2b-b546-1e746b01c8ab")
 	)
 	(junction
 		(at 115.57 200.66)
@@ -920,10 +1048,10 @@
 		(uuid "3de87889-e55f-4576-882b-1d6b4e40eb81")
 	)
 	(junction
-		(at 31.75 146.05)
+		(at 29.21 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e3cc117-f7bd-4916-b3a5-8127f9681785")
+		(uuid "3e6fec6f-8fe3-4a8a-8c7c-9f3289aa6ff5")
 	)
 	(junction
 		(at 162.56 166.37)
@@ -972,12 +1100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42f6f72e-50d3-483f-a2cc-df78612bbd25")
-	)
-	(junction
-		(at 31.75 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "432819c4-0389-4a5e-8361-93691a4191d2")
 	)
 	(junction
 		(at 464.82 90.17)
@@ -1110,12 +1232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d820387-5b7b-4f02-8a55-61996e3b889f")
-	)
-	(junction
-		(at 31.75 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ddd200e-d969-41b6-929e-978060fe7a5d")
 	)
 	(junction
 		(at 497.84 193.04)
@@ -1500,6 +1616,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3875ab-6785-4823-a804-fc73bd8f6d08")
+	)
+	(junction
+		(at 43.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a002fd84-3385-4875-a6f5-1bfbd486ab50")
+	)
+	(junction
+		(at 29.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09890e1-7d32-4c10-8d8c-c196116131e3")
 	)
 	(junction
 		(at 358.14 43.18)
@@ -1964,12 +2092,6 @@
 		(uuid "ea205a38-9ea6-452d-9579-a8e9db932ccb")
 	)
 	(junction
-		(at 31.75 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecd8f7fb-dd2d-4ef5-9f5a-63d0daf6458b")
-	)
-	(junction
 		(at 113.03 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2119,6 +2241,16 @@
 			(type default)
 		)
 		(uuid "01f04fe2-546c-4438-b1cc-70d9e950c3e8")
+	)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 29.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0223124d-32e1-47ed-9633-38585fef1170")
 	)
 	(wire
 		(pts
@@ -2719,16 +2851,6 @@
 			(type default)
 		)
 		(uuid "2a7bd9f3-0089-48ec-b457-c4957cb83cb5")
-	)
-	(wire
-		(pts
-			(xy 38.1 55.88) (xy 55.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be895b7-5eef-48ef-b84b-824c59d19459")
 	)
 	(wire
 		(pts
@@ -3812,16 +3934,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 77.47) (xy 31.75 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68474df2-b7f6-4dab-a99c-408fb9116143")
-	)
-	(wire
-		(pts
 			(xy 407.67 180.34) (xy 444.5 180.34)
 		)
 		(stroke
@@ -4102,16 +4214,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 111.76) (xy 31.75 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744418c9-6d83-40c3-b8fd-1922e7fc03ed")
-	)
-	(wire
-		(pts
 			(xy 149.86 166.37) (xy 162.56 166.37)
 		)
 		(stroke
@@ -4302,16 +4404,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 40.64) (xy 31.75 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef31dfe-0716-4caf-b8d8-9876938e725f")
-	)
-	(wire
-		(pts
 			(xy 499.11 158.75) (xy 497.84 158.75)
 		)
 		(stroke
@@ -4409,6 +4501,16 @@
 			(type default)
 		)
 		(uuid "84c7fc60-4ed6-473f-a08f-942247801299")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8505d958-b0d9-40e9-92ea-c7b86f28c452")
 	)
 	(wire
 		(pts
@@ -4612,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 35.56 66.04)
+			(xy 29.21 63.5) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5012,16 +5114,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 43.18) (xy 31.75 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4dd12cb-b6c9-4773-a5e0-5ee107535452")
-	)
-	(wire
-		(pts
 			(xy 210.82 48.26) (xy 210.82 43.18)
 		)
 		(stroke
@@ -5039,16 +5131,6 @@
 			(type default)
 		)
 		(uuid "a5d35d52-b215-4b55-87f8-4466e743a5a7")
-	)
-	(wire
-		(pts
-			(xy 31.75 180.34) (xy 31.75 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63e44c3-3683-4c0d-9f38-d2ed00d1b659")
 	)
 	(wire
 		(pts
@@ -5342,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 43.18) (xy 43.18 43.18)
+			(xy 27.94 43.18) (xy 29.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5962,16 +6044,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 146.05) (xy 31.75 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d753e675-37e9-4457-b86b-8e485ba5be83")
-	)
-	(wire
-		(pts
 			(xy 113.03 97.79) (xy 149.86 97.79)
 		)
 		(stroke
@@ -6019,16 +6091,6 @@
 			(type default)
 		)
 		(uuid "d96e656c-ba96-4b6d-aba4-32e8f75f850d")
-	)
-	(wire
-		(pts
-			(xy 43.18 43.18) (xy 63.5 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da2ac0c1-1411-41cc-bba5-378b273cd834")
 	)
 	(wire
 		(pts
@@ -6542,6 +6604,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f440d54e-1826-4024-952c-8335b376f0ad")
+	)
+	(wire
+		(pts
 			(xy 100.33 214.63) (xy 115.57 214.63)
 		)
 		(stroke
@@ -6599,6 +6671,16 @@
 			(type default)
 		)
 		(uuid "fa50deb7-32df-46c2-93b4-46a28917ebf9")
+	)
+	(wire
+		(pts
+			(xy 29.21 43.18) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae3316e-285a-4fd8-9bba-ae4aa7a9410e")
 	)
 	(wire
 		(pts
@@ -6662,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 43.18 63.5)
+			(xy 29.21 63.5) (xy 43.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6692,18 +6774,51 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 31.75 40.64 0)
+		(at 31.75 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "19206768-02cf-42ff-94de-2d44f69efadb")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 31.75 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2206c13-7bb7-4a06-9974-e0a9bcdb4045")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 31.75 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac51263f-1479-49bc-9c6a-a7523c04104d")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 27.94 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "d4ddd5d3-202b-4a8e-bb9f-ee8546bede2b")
 	)
 	(hierarchical_label "RGB"
 		(shape input)
-		(at 38.1 55.88 180)
+		(at 31.75 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6711,6 +6826,28 @@
 			(justify right)
 		)
 		(uuid "d5ba5fc5-0cd6-4db4-86a4-3cb0f43f4d8e")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 31.75 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebbaa4b4-b08e-4432-b8a8-bc8222ea03a7")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 31.75 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eede57cd-af36-4fea-8850-3035beaaa920")
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI-E")
@@ -6724,7 +6861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e2fa76-f023-4082-8b70-bc37caa14242")
-		(property "Reference" "D43"
+		(property "Reference" "D104"
 			(at 176.53 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,7 +6931,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D43")
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06c176cb-3baf-45da-8ef0-7c0bc9ed9df8")
-		(property "Reference" "C45"
+		(property "Reference" "C46"
 			(at 243.84 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6875,7 +7012,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6892,7 +7029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08006024-519b-4106-bde8-3ba28109ee5c")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 440.69 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,7 +7051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 443.5348 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +7093,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -6974,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7f0323-e780-44b9-a423-99872f15afda")
-		(property "Reference" "D11"
+		(property "Reference" "D72"
 			(at 77.47 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7044,7 +7181,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D11")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ce4cff9-247d-4cd6-9d25-f686a92917cc")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 146.05 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7125,7 +7262,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7142,7 +7279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e72b099-11dc-47d7-b3f9-f4f3281922d9")
-		(property "Reference" "C53"
+		(property "Reference" "C54"
 			(at 146.05 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,7 +7301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -7206,7 +7343,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C53")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11027887-9b0e-487c-81e7-7639bc9af1a0")
-		(property "Reference" "D29"
+		(property "Reference" "D90"
 			(at 471.17 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +7431,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D29")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -7312,7 +7449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c98dd4-ee09-4e15-ba29-d6fc0e4f5505")
-		(property "Reference" "D51"
+		(property "Reference" "D112"
 			(at 77.47 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7519,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D51")
+					(reference "D112")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13f86cf0-ec1e-425d-923e-14cf3198ca59")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 290.83 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 293.6748 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7463,7 +7600,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7481,7 +7618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14095098-2c9e-4db4-a753-fd4537380b30")
-		(property "Reference" "D31"
+		(property "Reference" "D92"
 			(at 77.47 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +7688,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D31")
+					(reference "D92")
 					(unit 1)
 				)
 			)
@@ -7568,7 +7705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1882c73c-068e-425b-9c76-847b99e2f06d")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 96.52 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7632,7 +7769,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7649,7 +7786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b3e298c-0684-4987-9b2c-4c0b812b0d3d")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 341.63 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7671,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 344.4748 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -7713,7 +7850,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b531a74-2ead-4fd7-8986-3d7de2fcff8e")
-		(property "Reference" "C61"
+		(property "Reference" "C62"
 			(at 537.21 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +7889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 540.0548 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -7794,7 +7931,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f55287b-3db4-4bfc-b2de-1584cac63c31")
-		(property "Reference" "D4"
+		(property "Reference" "D65"
 			(at 224.79 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +8019,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D4")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -7900,7 +8037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2226c75e-938d-4e28-b668-cb5cf412012f")
-		(property "Reference" "D61"
+		(property "Reference" "D122"
 			(at 567.69 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7970,7 +8107,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D61")
+					(reference "D122")
 					(unit 1)
 				)
 			)
@@ -8066,7 +8203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24fa1152-0cb3-43f3-b0b7-1974a4c47ffb")
-		(property "Reference" "D60"
+		(property "Reference" "D121"
 			(at 519.43 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8273,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D60")
+					(reference "D121")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25fa1cd9-a360-4358-890c-c827db9e9230")
-		(property "Reference" "C54"
+		(property "Reference" "C55"
 			(at 191.77 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,7 +8312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.6148 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8217,7 +8354,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C54")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283108eb-64e2-47e5-89d3-aa04c46edde8")
-		(property "Reference" "D23"
+		(property "Reference" "D84"
 			(at 176.53 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8442,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D23")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -8323,7 +8460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28823d44-c925-404f-a600-ddc352316b56")
-		(property "Reference" "D15"
+		(property "Reference" "D76"
 			(at 274.32 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,7 +8530,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D15")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a2a5a87-c938-4a57-bb7f-e5a93082911e")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 146.05 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,7 +8569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8474,7 +8611,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf42949-ff01-4467-880c-e8e716758181")
-		(property "Reference" "D45"
+		(property "Reference" "D106"
 			(at 274.32 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8562,7 +8699,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D45")
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -8579,7 +8716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2eb055be-52a3-45b8-95ba-201cfa5ddcf8")
-		(property "Reference" "C51"
+		(property "Reference" "C52"
 			(at 41.91 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,7 +8738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.7548 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8643,7 +8780,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C51")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -8661,7 +8798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3112c8dd-1369-4e15-924b-ccb39d295bd0")
-		(property "Reference" "D30"
+		(property "Reference" "D91"
 			(at 519.43 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8731,7 +8868,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D30")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -8748,7 +8885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33d371f0-9aa2-4318-8a0a-63a1834b3841")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 341.63 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8770,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 344.4748 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8812,7 +8949,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343fde90-f710-4cb4-a2a0-f3370a8a6e7c")
-		(property "Reference" "D54"
+		(property "Reference" "D115"
 			(at 224.79 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +9037,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D54")
+					(reference "D115")
 					(unit 1)
 				)
 			)
@@ -8917,7 +9054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37ae2839-7f44-4831-b1c5-892ee0e5ca8a")
-		(property "Reference" "C58"
+		(property "Reference" "C59"
 			(at 391.16 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8939,7 +9076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 394.0048 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +9118,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C58")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -8998,7 +9135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c11416a-d8dc-4678-b955-6196be9c17bd")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 194.31 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,7 +9157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 197.1548 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9062,7 +9199,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9079,7 +9216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d97675d-0a26-4623-9c44-54e80deb9ff9")
-		(property "Reference" "C42"
+		(property "Reference" "C43"
 			(at 96.52 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +9238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9280,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e711b0d-a866-47df-bb87-49e8ce374836")
-		(property "Reference" "D49"
+		(property "Reference" "D110"
 			(at 471.17 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9368,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D49")
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -9248,7 +9385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ea0d393-f7b9-46be-a4e0-9561a4c25c2a")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 341.63 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,7 +9407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 344.4748 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9312,7 +9449,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9330,7 +9467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3facd6ad-a710-4eb0-87d9-8723d75d69f0")
-		(property "Reference" "D38"
+		(property "Reference" "D99"
 			(at 421.64 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9400,7 +9537,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D38")
+					(reference "D99")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "420b766f-d725-4359-9381-2a375322e6d8")
-		(property "Reference" "D52"
+		(property "Reference" "D113"
 			(at 129.54 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,7 +9625,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D52")
+					(reference "D113")
 					(unit 1)
 				)
 			)
@@ -9506,7 +9643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4258425a-fb64-4e53-9a56-96ea21d644be")
-		(property "Reference" "D7"
+		(property "Reference" "D68"
 			(at 372.11 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +9713,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D7")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -9593,7 +9730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43b007cc-e5ea-4d65-aaaf-c3627a56bfe2")
-		(property "Reference" "C47"
+		(property "Reference" "C48"
 			(at 341.63 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 344.4748 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9657,7 +9794,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C47")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -9675,7 +9812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c44f8c-8dc9-4f9a-a9e3-9f06d488f950")
-		(property "Reference" "D32"
+		(property "Reference" "D93"
 			(at 129.54 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +9882,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D32")
+					(reference "D93")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47132192-7a57-49da-b0cc-854f74fe4855")
-		(property "Reference" "D40"
+		(property "Reference" "D101"
 			(at 519.43 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +9970,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D40")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -9851,7 +9988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4898b111-e970-4824-a360-ff92a2d3f76d")
-		(property "Reference" "D8"
+		(property "Reference" "D69"
 			(at 421.64 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +10058,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D8")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -9938,7 +10075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c751e55-331e-4399-8cce-5369c064b65c")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 490.22 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9960,7 +10097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 487.3752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10002,7 +10139,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10020,7 +10157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe1aee8-1972-4292-a942-9bbe32925ac5")
-		(property "Reference" "D9"
+		(property "Reference" "D70"
 			(at 471.17 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10227,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D9")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -10107,7 +10244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5024df59-2f27-4f6f-8ffd-0e25ee5cd013")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 441.96 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10129,7 +10266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 439.1152 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10171,7 +10308,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10188,7 +10325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50ca82b5-08b6-483b-8392-8e63258ed184")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 488.95 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10210,7 +10347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.7948 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10252,7 +10389,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "513b22e4-8252-41ad-b0ee-9accbb45e02d")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 43.18 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10291,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.0248 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10333,7 +10470,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51749609-71fc-400f-a3fe-97edc7fe4f14")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 488.95 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +10509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.7948 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10414,7 +10551,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10432,7 +10569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55acb45d-fc2c-4cae-b77b-64b904f73022")
-		(property "Reference" "D21"
+		(property "Reference" "D82"
 			(at 77.47 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10639,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D21")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -10519,7 +10656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5629ec41-879d-4dde-9f62-8dd09557df6b")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 391.16 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10541,7 +10678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 394.0048 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10583,7 +10720,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -10601,7 +10738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b6ef05-57d6-4bd9-8d65-c5d50ff3aaf7")
-		(property "Reference" "D25"
+		(property "Reference" "D86"
 			(at 274.32 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10671,7 +10808,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D25")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -10689,7 +10826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5838581c-e5ad-4441-8b62-5b63b10c7c02")
-		(property "Reference" "D12"
+		(property "Reference" "D73"
 			(at 127 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10759,7 +10896,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D12")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -10776,7 +10913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58897944-af7a-4ebb-aac7-6dc33269e83c")
-		(property "Reference" "C48"
+		(property "Reference" "C49"
 			(at 391.16 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10798,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 394.0048 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10840,7 +10977,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C48")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -10857,7 +10994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abfb6ca-bc94-41c1-b862-58690723b748")
-		(property "Reference" "C50"
+		(property "Reference" "C51"
 			(at 488.95 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +11016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.7948 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10921,7 +11058,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -10939,7 +11076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ac6f927-576c-46f7-aade-c18b72e4a332")
-		(property "Reference" "D16"
+		(property "Reference" "D77"
 			(at 323.85 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,7 +11146,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D16")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -11027,7 +11164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afed916-2f29-4e77-be3c-5b2073de7a0a")
-		(property "Reference" "D53"
+		(property "Reference" "D114"
 			(at 176.53 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11097,7 +11234,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D53")
+					(reference "D114")
 					(unit 1)
 				)
 			)
@@ -11114,7 +11251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c00b377-491e-4036-b296-5fb6e080362c")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 243.84 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11136,7 +11273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11178,7 +11315,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6540e193-96c2-4a33-ac87-30c3b691fc7e")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 96.52 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +11354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11259,7 +11396,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b26da1-d97a-4fd6-930b-a3105c264c02")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 341.63 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 344.4748 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11340,7 +11477,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11357,7 +11494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68d1c1d8-02ee-437d-bf66-c1dfedf1cf8e")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 195.58 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11379,7 +11516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 192.7352 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11558,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11517,7 +11654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c01cc6-7e44-4bab-8a6b-68be40326e5f")
-		(property "Reference" "D18"
+		(property "Reference" "D79"
 			(at 421.64 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +11724,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D18")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -11604,7 +11741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77791839-8605-4830-9d68-448651110b0d")
-		(property "Reference" "C52"
+		(property "Reference" "C53"
 			(at 96.52 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +11763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -11668,7 +11805,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -11685,7 +11822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "800181de-d20d-41f7-9919-42c69c9659ac")
-		(property "Reference" "C60"
+		(property "Reference" "C61"
 			(at 488.95 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11707,7 +11844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.7948 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -11749,7 +11886,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -11767,7 +11904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842f7dae-ac5f-4f3e-993e-eff73bbff25c")
-		(property "Reference" "D39"
+		(property "Reference" "D100"
 			(at 471.17 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11837,7 +11974,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D39")
+					(reference "D100")
 					(unit 1)
 				)
 			)
@@ -11854,7 +11991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86a68ba7-ffb7-40bc-9251-6908da4a651b")
-		(property "Reference" "C55"
+		(property "Reference" "C56"
 			(at 243.84 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +12013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -11918,7 +12055,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C55")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11935,7 +12072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87ddf71e-300b-47b6-9076-b71cfee939f4")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 147.32 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,7 +12094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.4752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +12136,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12017,7 +12154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880c355c-bc45-4ccd-afc7-66150479c87d")
-		(property "Reference" "D10"
+		(property "Reference" "D71"
 			(at 519.43 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12087,7 +12224,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D10")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -12105,7 +12242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886563fe-b561-4dfb-85e0-25eece0cdff3")
-		(property "Reference" "D22"
+		(property "Reference" "D83"
 			(at 129.54 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +12312,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D22")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -12193,7 +12330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c1f23a6-5bdd-40cf-b72a-68f1144a7a91")
-		(property "Reference" "D36"
+		(property "Reference" "D97"
 			(at 323.85 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +12400,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D36")
+					(reference "D97")
 					(unit 1)
 				)
 			)
@@ -12281,7 +12418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca87699-79f4-4126-b0a5-abb34756b6ab")
-		(property "Reference" "D24"
+		(property "Reference" "D85"
 			(at 224.79 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12488,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D24")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -12368,7 +12505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d95c717-d8de-4274-9ea4-6d1e34576467")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 342.9 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12390,7 +12527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 340.0552 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12432,7 +12569,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12450,7 +12587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc73f4b-d3fe-4bf6-adbb-b1f8a0748e83")
-		(property "Reference" "D58"
+		(property "Reference" "D119"
 			(at 421.64 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12520,7 +12657,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D58")
+					(reference "D119")
 					(unit 1)
 				)
 			)
@@ -12537,7 +12674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e82aacc-3f2b-4c06-8af2-5c7e4843e273")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 146.05 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +12696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12601,7 +12738,86 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C33")
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92c62adf-7033-4485-868c-4a116525a7fe")
+		(property "Reference" "R1"
+			(at 33.528 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 33.782 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 35.56 57.658 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5334a0f-1079-4ed9-aa38-a4e33396338a")
+		)
+		(pin "2"
+			(uuid "3242d9c5-1e4d-45a2-84cd-79961835ec90")
+		)
+		(instances
+			(project "kicad"
+				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12619,7 +12835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9326d765-26ce-4492-8a09-b7fe09a8810b")
-		(property "Reference" "D33"
+		(property "Reference" "D94"
 			(at 176.53 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12905,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D33")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -12706,7 +12922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ef7033-ede1-4682-8406-d68198ccb2b9")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 41.91 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12728,7 +12944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.7548 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12770,7 +12986,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -12787,7 +13003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9520320b-20f8-4536-84a0-b70a16d2ef79")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 243.84 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12809,7 +13025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12851,7 +13067,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12947,7 +13163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a3d1ec-54ea-40c3-b256-219ab34d6fa2")
-		(property "Reference" "D50"
+		(property "Reference" "D111"
 			(at 519.43 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13017,7 +13233,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D50")
+					(reference "D111")
 					(unit 1)
 				)
 			)
@@ -13034,7 +13250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98db409a-381d-49b9-8a39-f9b8e0e5b988")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 440.69 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13056,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 443.5348 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13098,7 +13314,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -13115,7 +13331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99037298-a67d-4afb-8469-148953b63947")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 488.95 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13137,7 +13353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 491.7948 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13179,7 +13395,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -13196,7 +13412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9925acf6-d301-48a4-92ff-52bf8bfa7c9d")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 191.77 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13218,7 +13434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.6148 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13260,7 +13476,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -13278,7 +13494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9946bcb0-b1e5-465c-91e5-ad51841ea767")
-		(property "Reference" "D57"
+		(property "Reference" "D118"
 			(at 372.11 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,7 +13564,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D57")
+					(reference "D118")
 					(unit 1)
 				)
 			)
@@ -13366,7 +13582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4a9a9c-f30f-4627-b2cc-2d3dc1075f16")
-		(property "Reference" "D1"
+		(property "Reference" "D62"
 			(at 77.47 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13436,7 +13652,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D1")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -13454,7 +13670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef911e1-d44f-4c8d-a3fe-1a6e5fa9a84c")
-		(property "Reference" "D34"
+		(property "Reference" "D95"
 			(at 224.79 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13524,7 +13740,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D34")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -13542,7 +13758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb5a092-5cc3-471e-9e0b-1a5985ceb77e")
-		(property "Reference" "D56"
+		(property "Reference" "D117"
 			(at 323.85 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13612,7 +13828,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D56")
+					(reference "D117")
 					(unit 1)
 				)
 			)
@@ -13630,7 +13846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a16fba56-2d0c-4e80-bdf6-34715ba16ebb")
-		(property "Reference" "D26"
+		(property "Reference" "D87"
 			(at 323.85 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13700,7 +13916,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D26")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -13718,7 +13934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a342dc7e-bce8-4d4e-b438-c7f5e8669404")
-		(property "Reference" "D2"
+		(property "Reference" "D63"
 			(at 127 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13788,7 +14004,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D2")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -13806,7 +14022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a684bbd4-4501-40b7-9011-6a2609796a9d")
-		(property "Reference" "D19"
+		(property "Reference" "D80"
 			(at 471.17 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13876,7 +14092,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D19")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -13893,7 +14109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7aaf07b-0b25-4fd7-8a10-34d2c0cc76fd")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 293.37 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13915,7 +14131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 296.2148 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13957,7 +14173,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -13975,7 +14191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a955cab9-0e0f-49b0-9e95-84bad09fb84b")
-		(property "Reference" "D5"
+		(property "Reference" "D66"
 			(at 274.32 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14045,7 +14261,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D5")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -14063,7 +14279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2aee44-ce75-4439-b27d-bdb281fdd388")
-		(property "Reference" "D44"
+		(property "Reference" "D105"
 			(at 224.79 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14133,7 +14349,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D44")
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -14151,7 +14367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2c3466-9ca9-442f-ab37-0b735851143f")
-		(property "Reference" "D41"
+		(property "Reference" "D102"
 			(at 77.47 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14221,7 +14437,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D41")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -14238,7 +14454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab163609-0e27-41b2-a14d-94a122ab5964")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 290.83 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14260,7 +14476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 293.6748 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -14302,7 +14518,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -14320,7 +14536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00bdfd6-7571-43ba-af50-1d2718e3dd3d")
-		(property "Reference" "D3"
+		(property "Reference" "D64"
 			(at 176.53 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14390,7 +14606,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D3")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -14408,7 +14624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e7ecfb-57e8-46ab-836a-d129bd8f0b85")
-		(property "Reference" "D27"
+		(property "Reference" "D88"
 			(at 372.11 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14478,7 +14694,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D27")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -14496,7 +14712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b843b6cc-49bd-4397-9542-d4bd67edc490")
-		(property "Reference" "D20"
+		(property "Reference" "D81"
 			(at 519.43 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14566,7 +14782,89 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D20")
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 29.21 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b938a1e6-da80-4e79-9510-b297feea2b28")
+		(property "Reference" "C1"
+			(at 33.02 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 33.02 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder"
+			(at 30.1752 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 29.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c762d0d7-890a-4167-989f-60bd0cc317df")
+		)
+		(pin "2"
+			(uuid "9235867b-8323-4900-be23-09705712e012")
+		)
+		(instances
+			(project "kicad"
+				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14583,8 +14881,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcd275ff-5115-417c-b700-74e293474957")
-		(property "Reference" "C1"
-			(at 39.37 48.2601 0)
+		(property "Reference" "C2"
+			(at 48.26 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14595,7 +14893,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 45.7201 0)
+			(at 51.562 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14605,7 +14903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 42.2148 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14647,7 +14945,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14665,7 +14963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd94ae8b-1897-44d5-ba88-09ccbdc4c727")
-		(property "Reference" "D42"
+		(property "Reference" "D103"
 			(at 129.54 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14735,7 +15033,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D42")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -14752,7 +15050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c24dc1ca-eb22-4ba4-b197-674546809f45")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 194.31 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14774,7 +15072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 197.1548 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14816,7 +15114,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -14833,7 +15131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2e695c1-598b-4243-8314-be5b462c2921")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 440.69 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14855,7 +15153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 443.5348 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14897,7 +15195,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -14914,7 +15212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3066f97-227c-452b-bf80-fec1e06d3789")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 191.77 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14936,7 +15234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.6148 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14978,7 +15276,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -14995,7 +15293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c769266a-ab7b-4478-ac90-915ee8e7be61")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 43.18 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15017,7 +15315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.0248 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15059,7 +15357,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 66.04 0)
+		(at 29.21 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15078,7 +15376,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd7e81a9-455f-4097-8385-7d99d4405e78")
 		(property "Reference" "#PWR03"
-			(at 35.56 72.39 0)
+			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15089,7 +15387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 71.12 0)
+			(at 29.21 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15099,7 +15397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15110,7 +15408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15121,7 +15419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 66.04 0)
+			(at 29.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15155,7 +15453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8c9ead-a777-4d4c-9ba8-00473732e8c3")
-		(property "Reference" "D13"
+		(property "Reference" "D74"
 			(at 176.53 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15225,7 +15523,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D13")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -15242,7 +15540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ced2ff50-b0a9-4350-91a5-4a13e144de62")
-		(property "Reference" "C46"
+		(property "Reference" "C47"
 			(at 290.83 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15264,7 +15562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 293.6748 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15306,7 +15604,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C46")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -15323,7 +15621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ef9f91-beb6-48f7-badb-237f76f30947")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 294.64 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15345,7 +15643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 291.7952 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15387,7 +15685,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15405,7 +15703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5700387-6859-4bab-9eec-147bd93b7608")
-		(property "Reference" "D35"
+		(property "Reference" "D96"
 			(at 274.32 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15475,7 +15773,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D35")
+					(reference "D96")
 					(unit 1)
 				)
 			)
@@ -15571,7 +15869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dafe2d41-6e7e-4962-9064-ffd1fa388829")
-		(property "Reference" "D37"
+		(property "Reference" "D98"
 			(at 372.11 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15641,7 +15939,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D37")
+					(reference "D98")
 					(unit 1)
 				)
 			)
@@ -15659,7 +15957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc31ef73-19b3-4031-9038-1a4858b250f9")
-		(property "Reference" "D55"
+		(property "Reference" "D116"
 			(at 274.32 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15729,7 +16027,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D55")
+					(reference "D116")
 					(unit 1)
 				)
 			)
@@ -15746,7 +16044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df1d8c3e-27c5-4e03-a841-5cb98e8dc3b7")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 391.16 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15768,7 +16066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 394.0048 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15810,7 +16108,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15827,7 +16125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e09d6900-627e-4924-af6a-eb5fe194664c")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 96.52 116.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15849,7 +16147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15891,7 +16189,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -15909,7 +16207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fd6271-016c-4f4e-95a2-067bb6017149")
-		(property "Reference" "D6"
+		(property "Reference" "D67"
 			(at 323.85 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,7 +16277,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D6")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -15996,7 +16294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e394cb17-9096-4a3e-beae-fedf5f9e4964")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 440.69 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +16316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 443.5348 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16060,7 +16358,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16077,7 +16375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4d9db11-36dc-46ce-97a1-d7c80e51aa35")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 391.16 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16099,7 +16397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 394.0048 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16141,7 +16439,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -16159,7 +16457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e885a5d3-c792-4765-bf8f-dcd68e17d250")
-		(property "Reference" "D14"
+		(property "Reference" "D75"
 			(at 224.79 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16527,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D14")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -16247,7 +16545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9464301-22f9-4952-8e58-133e40223a92")
-		(property "Reference" "D17"
+		(property "Reference" "D78"
 			(at 372.11 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16317,7 +16615,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D17")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -16335,7 +16633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d3fd50-857b-43d3-a17b-631f2b0bacd8")
-		(property "Reference" "D28"
+		(property "Reference" "D89"
 			(at 421.64 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16405,7 +16703,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D28")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -16423,7 +16721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee096ebf-6055-4833-b6d9-4e7d38fe2e65")
-		(property "Reference" "D46"
+		(property "Reference" "D107"
 			(at 323.85 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16493,7 +16791,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D46")
+					(reference "D107")
 					(unit 1)
 				)
 			)
@@ -16511,7 +16809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1003209-a3c2-43ae-87e0-26cdc93a8190")
-		(property "Reference" "D59"
+		(property "Reference" "D120"
 			(at 471.17 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16581,7 +16879,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D59")
+					(reference "D120")
 					(unit 1)
 				)
 			)
@@ -16598,7 +16896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2829c0d-2136-4fa6-99e7-11419f71e08d")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 392.43 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16620,7 +16918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 389.5852 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16662,7 +16960,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16679,7 +16977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f298df62-83ac-4ba1-8e41-959e34fada25")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 293.37 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16701,7 +16999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 296.2148 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16743,7 +17041,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16838,7 +17136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f44d7691-2dc5-4a97-a214-988b402122e6")
-		(property "Reference" "C59"
+		(property "Reference" "C60"
 			(at 440.69 219.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16860,7 +17158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 443.5348 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16902,7 +17200,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -16919,7 +17217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4a41dad-5d9a-4189-8c53-96eb73d63305")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 245.11 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16941,7 +17239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 242.2652 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16983,7 +17281,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17000,7 +17298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5aa28b7-aac3-4d2a-90b3-4a9dd69696c7")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 41.91 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.7548 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17064,7 +17362,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faec11b4-9701-4870-a8fa-ca5257f4df48")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 97.79 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17103,7 +17401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 94.9452 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17145,7 +17443,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -17163,7 +17461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb383c8c-6277-4825-b455-4e7260aaa521")
-		(property "Reference" "D48"
+		(property "Reference" "D109"
 			(at 421.64 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17233,7 +17531,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D48")
+					(reference "D109")
 					(unit 1)
 				)
 			)
@@ -17251,7 +17549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5b0c14-3e4d-437b-89dd-36fc7d478699")
-		(property "Reference" "D47"
+		(property "Reference" "D108"
 			(at 372.11 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17321,7 +17619,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D47")
+					(reference "D108")
 					(unit 1)
 				)
 			)
@@ -17338,7 +17636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc359a3b-e83f-473e-9698-058d09e93a37")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 243.84 151.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17360,7 +17658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17402,7 +17700,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -17419,7 +17717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd800bff-e361-4a0b-8bd1-0f256ef8ae26")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 146.05 185.4201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17441,7 +17739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17483,7 +17781,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)
