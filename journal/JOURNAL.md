@@ -25,8 +25,8 @@ After this i added 5 stabalizers: 2.25u for shift, shift r, enter, 2u for left s
 
 Though i wanted to add rgb lights, and other things but i was worried i might mess up hence decided to build a simple one first..
 
-## PCB Designing - Aug 13 - 18:36 (took 4h 20) - [[vid1](https://lapse.hackclub.com/timelapse/YOkFsyImk0Pb), [vid2](https://lapse.hackclub.com/timelapse/Ex7zEscL5foG)]
-Ok this was so fun! So after building schematics, i had to build pcb, i started by looking at others as i had no idea abt it, then i realized here i have to place and design components as i want the keyboard irl. so thats, what i did, i started placing switched and diodes one by one and the hard part was rotating and placing it such that it doesn't conflict.. then i completed it in ~2 hrs, though i am not confirmed whether i did right or not as i jst placed them as i thought was right not with exact measurements. btw this is what i got:
+## PCB Designing - Aug 13 - 18:36 (took 4h 20m) - [[vid1](https://lapse.hackclub.com/timelapse/YOkFsyImk0Pb), [vid2](https://lapse.hackclub.com/timelapse/Ex7zEscL5foG)]
+Ok this was so fun! So after building schematics, i had to build pcb, i started by looking at others as i had no idea abt it, then i realized here i have to place and design components as i want the keyboard irl. so thats, what i did, i started placing switches and diodes one by one and the hard part was rotating and placing it such that it doesn't conflict.. then i completed it in ~2 hrs, though i am not confirmed whether i did right or not as i jst placed them as i thought was right not with exact measurements. btw this is what i got:
 ![](./imgs/pcb_halfway.png)
 
  Alrit so i thought this was all for pcb but got to know now i would have to route traces.. i started by looking  at other's routed board and started mine, i tried routing one row but was confused as the traces were conflicting but soon realized how to do! at first i was trynna making it as clean as possble but at the end got to know that it must be as short as possible hence had to edit and make it short. I used F.Cu for rows and B.Cu for cols. Afterwards, i edited my avatar and used it as silkscreen in the pcb! But the problem was at last in the guide it was said to flood leftover copper traces with gnd but i didn't find gnd :( so i skipped this as DRC was success. heres the routed pcb:
@@ -68,7 +68,7 @@ then after verifying that i was doing everything right, i annoted the numbers, t
 So finally schemetics is done - hopefully. Heres the img of my led matrix as i did few changes:
 ![](./imgs/rgb_matrix_sch.png)
 
-## Placing switches and diodes in pcb - Aug 16 - 10:30 (took 5h 23m !!) - [[vid1](https://lapse.hackclub.com/timelapse/cdlYKonsr0yP), [vid2](https://lapse.hackclub.com/timelapse/3-Le5tg14sAu)[vid3](https://lapse.hackclub.com/timelapse/bj1iuRdRYYz4)]
+## Placing switches and diodes in pcb - Aug 16 - 10:30 (took 5h 23m !!) - [[vid1](https://lapse.hackclub.com/timelapse/cdlYKonsr0yP), [vid2](https://lapse.hackclub.com/timelapse/3-Le5tg14sAu), [vid3](https://lapse.hackclub.com/timelapse/bj1iuRdRYYz4)]
 I needed to be careful this time.
 
 I started by updating pcb from schematics, then added the grids(19.05, added half, quarter etc later). Then i began moving the switches inside the board, i was following layout but wasn't rotating or making exact alice like but jst a structure kinda(like normal keyboard). while doing this i messed up spacing multiple times bt hopefully fixed them as i notice. heres the img: 
@@ -81,7 +81,7 @@ So later i realized i can jst place it in front side so jst placed all diodes. A
 Alrit later looked at others pcb and found out they also had sm space inconsistency so i js resume doing this. After replacing all switches i was done with it. then i redraw rectangle for the board. heres the image
 ![](./imgs/pcb_2.png)
 
-## Placing rgbs in pcb - Aug 17 - 08:34 (took ) - [[vid1](https://lapse.hackclub.com/timelapse/EAJlNUQfDqrk)]
+## Placing rgbs in pcb - Aug 17 - 08:34 (took ?h ?m) - [[vid1](https://lapse.hackclub.com/timelapse/EAJlNUQfDqrk)]
 Alrit so now only rgb is left to place in pcb!
 
 I started by deleting extra capacitors in schematics and maintained a gap of a capacitor per 4 rgbs(which was enough and will be less pain while soldering). heres the img:
