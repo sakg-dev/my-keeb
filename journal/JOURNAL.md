@@ -2,7 +2,7 @@
 INFO:
  - total logged hr: _
  - source: https://lapse.hackclub.com/user/@sakgdev14
- - tldr: watch me yapping while building keyboard
+ - tldr: me yapping while building keyboard
  - heading format: TITLE - START_DATE - START_TIME (took HRS_TOOK) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
 ------------
 
@@ -81,11 +81,21 @@ So later i realized i can jst place it in front side so jst placed all diodes. A
 Alrit later looked at others pcb and found out they also had sm space inconsistency so i js resume doing this. After replacing all switches i was done with it. then i redraw rectangle for the board. heres the image
 ![](./imgs/pcb_2.png)
 
-## Placing rgbs in pcb - Aug 17 - 08:34 (took ?h ?m) - [[vid1](https://lapse.hackclub.com/timelapse/EAJlNUQfDqrk)]
+## Placing rgbs in pcb - Aug 17 - 08:34 (took 2h 24m) - [[vid1](https://lapse.hackclub.com/timelapse/EAJlNUQfDqrk), [vid2](https://lapse.hackclub.com/timelapse/DqyL5KlTACtc)]
 Alrit so now only rgb is left to place in pcb!
 
 I started by deleting extra capacitors in schematics and maintained a gap of a capacitor per 4 rgbs(which was enough and will be less pain while soldering). heres the img:
-![](updated_rgb_matrix.png)
+![](./imgs/updated_rgb_matrix.png)
 
 Then i updated pcb from schematics. I started placing rgbs in switches but after placing few realized they all were conflicting with their switches though the kailh socket was backside and rgbs was in front and they were not conflicting when both were in back side. but i want rgbs in front.. so did sm research but closed laptop.. heres the img of conflict: 
-![](conflicted_switch_pcb.png)
+![](./imgs/conflicted_switch_pcb.png)
+
+Ok heres me after a day, so the thing is... it was DAMN ez, "it wasn't a bug but a feature :>". Bcz turns out the rgb is reverse mounted that means it is supposed to be in backside of pcb and light will come through the hole!!
+
+So i started by flipping the rgbs and placing them inside switches, initially i js placed them inside the switches then i placed precisely. Afterwards i noticed the referance names of rgbs were D_, which was same as of diode hence i individually changed refereance names of each rgb to RGB_ in schematics then updated pcb from schematics. heres the img:
+![](./imgs/pcb_rgb.png)
+
+Afterwards i placed the mounting holes on the edges and middle of the pcb. 
+
+Now only capacitors and resistor was left, i wasn't sure where to place them so looked at others and found it would be near the switch(while maintaining the gap of 4 switched..). So while looking at the rgb matrix of schematics, started placing the capacitors and resistor(it was holy lagging while switching between schematics and pcb). Here is the image: 
+![](./imgs/cmplt_unrouted_pcb.png)

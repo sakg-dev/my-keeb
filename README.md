@@ -5,5 +5,8 @@ A 60% alice type tactile keyboard, properties:
 - 61 keys
 - Includes rgb light
 
+## Journal
+See [JOURNAL.md](journal/JOURNAL.md)
+
 ### AI usage
 Used ai to know more about how a mechanical keyboard works and what would be best for me

@@ -4909,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e2fa76-f023-4082-8b70-bc37caa14242")
-		(property "Reference" "D104"
+		(property "Reference" "RGB43"
 			(at 176.53 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4979,7 +4979,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D104")
+					(reference "RGB43")
 					(unit 1)
 				)
 			)
@@ -4997,7 +4997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7f0323-e780-44b9-a423-99872f15afda")
-		(property "Reference" "D72"
+		(property "Reference" "RGB11"
 			(at 77.47 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +5067,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D72")
+					(reference "RGB11")
 					(unit 1)
 				)
 			)
@@ -5085,7 +5085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11027887-9b0e-487c-81e7-7639bc9af1a0")
-		(property "Reference" "D90"
+		(property "Reference" "RGB29"
 			(at 471.17 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,7 +5155,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D90")
+					(reference "RGB29")
 					(unit 1)
 				)
 			)
@@ -5173,7 +5173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c98dd4-ee09-4e15-ba29-d6fc0e4f5505")
-		(property "Reference" "D112"
+		(property "Reference" "RGB51"
 			(at 77.47 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D112")
+					(reference "RGB51")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14095098-2c9e-4db4-a753-fd4537380b30")
-		(property "Reference" "D92"
+		(property "Reference" "RGB31"
 			(at 77.47 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5412,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D92")
+					(reference "RGB31")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f55287b-3db4-4bfc-b2de-1584cac63c31")
-		(property "Reference" "D65"
+		(property "Reference" "RGB4"
 			(at 224.79 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D65")
+					(reference "RGB4")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2226c75e-938d-4e28-b668-cb5cf412012f")
-		(property "Reference" "D122"
+		(property "Reference" "RGB61"
 			(at 567.69 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +5588,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D122")
+					(reference "RGB61")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24fa1152-0cb3-43f3-b0b7-1974a4c47ffb")
-		(property "Reference" "D121"
+		(property "Reference" "RGB60"
 			(at 519.43 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +5754,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D121")
+					(reference "RGB60")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283108eb-64e2-47e5-89d3-aa04c46edde8")
-		(property "Reference" "D84"
+		(property "Reference" "RGB23"
 			(at 176.53 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5842,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D84")
+					(reference "RGB23")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28823d44-c925-404f-a600-ddc352316b56")
-		(property "Reference" "D76"
+		(property "Reference" "RGB15"
 			(at 274.32 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +5930,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D76")
+					(reference "RGB15")
 					(unit 1)
 				)
 			)
@@ -5948,7 +5948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf42949-ff01-4467-880c-e8e716758181")
-		(property "Reference" "D106"
+		(property "Reference" "RGB45"
 			(at 274.32 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6018,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D106")
+					(reference "RGB45")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3112c8dd-1369-4e15-924b-ccb39d295bd0")
-		(property "Reference" "D91"
+		(property "Reference" "RGB30"
 			(at 519.43 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,7 +6187,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D91")
+					(reference "RGB30")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343fde90-f710-4cb4-a2a0-f3370a8a6e7c")
-		(property "Reference" "D115"
+		(property "Reference" "RGB54"
 			(at 224.79 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6275,7 +6275,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D115")
+					(reference "RGB54")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e711b0d-a866-47df-bb87-49e8ce374836")
-		(property "Reference" "D110"
+		(property "Reference" "RGB49"
 			(at 471.17 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,7 +6363,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D110")
+					(reference "RGB49")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3facd6ad-a710-4eb0-87d9-8723d75d69f0")
-		(property "Reference" "D99"
+		(property "Reference" "RGB38"
 			(at 421.64 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6451,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D99")
+					(reference "RGB38")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "420b766f-d725-4359-9381-2a375322e6d8")
-		(property "Reference" "D113"
+		(property "Reference" "RGB52"
 			(at 129.54 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +6539,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D113")
+					(reference "RGB52")
 					(unit 1)
 				)
 			)
@@ -6557,7 +6557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4258425a-fb64-4e53-9a56-96ea21d644be")
-		(property "Reference" "D68"
+		(property "Reference" "RGB7"
 			(at 372.11 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6627,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D68")
+					(reference "RGB7")
 					(unit 1)
 				)
 			)
@@ -6645,7 +6645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c44f8c-8dc9-4f9a-a9e3-9f06d488f950")
-		(property "Reference" "D93"
+		(property "Reference" "RGB32"
 			(at 129.54 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6715,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D93")
+					(reference "RGB32")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47132192-7a57-49da-b0cc-854f74fe4855")
-		(property "Reference" "D101"
+		(property "Reference" "RGB40"
 			(at 519.43 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +6803,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D101")
+					(reference "RGB40")
 					(unit 1)
 				)
 			)
@@ -6821,7 +6821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4898b111-e970-4824-a360-ff92a2d3f76d")
-		(property "Reference" "D69"
+		(property "Reference" "RGB8"
 			(at 421.64 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6891,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D69")
+					(reference "RGB8")
 					(unit 1)
 				)
 			)
@@ -6909,7 +6909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe1aee8-1972-4292-a942-9bbe32925ac5")
-		(property "Reference" "D70"
+		(property "Reference" "RGB9"
 			(at 471.17 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6979,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D70")
+					(reference "RGB9")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55acb45d-fc2c-4cae-b77b-64b904f73022")
-		(property "Reference" "D82"
+		(property "Reference" "RGB21"
 			(at 77.47 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +7148,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D82")
+					(reference "RGB21")
 					(unit 1)
 				)
 			)
@@ -7166,7 +7166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b6ef05-57d6-4bd9-8d65-c5d50ff3aaf7")
-		(property "Reference" "D86"
+		(property "Reference" "RGB25"
 			(at 274.32 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7236,7 +7236,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D86")
+					(reference "RGB25")
 					(unit 1)
 				)
 			)
@@ -7254,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5838581c-e5ad-4441-8b62-5b63b10c7c02")
-		(property "Reference" "D73"
+		(property "Reference" "RGB12"
 			(at 127 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7324,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D73")
+					(reference "RGB12")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ac6f927-576c-46f7-aade-c18b72e4a332")
-		(property "Reference" "D77"
+		(property "Reference" "RGB16"
 			(at 323.85 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +7412,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D77")
+					(reference "RGB16")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afed916-2f29-4e77-be3c-5b2073de7a0a")
-		(property "Reference" "D114"
+		(property "Reference" "RGB53"
 			(at 176.53 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7500,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D114")
+					(reference "RGB53")
 					(unit 1)
 				)
 			)
@@ -7596,7 +7596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c01cc6-7e44-4bab-8a6b-68be40326e5f")
-		(property "Reference" "D79"
+		(property "Reference" "RGB18"
 			(at 421.64 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,7 +7666,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D79")
+					(reference "RGB18")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842f7dae-ac5f-4f3e-993e-eff73bbff25c")
-		(property "Reference" "D100"
+		(property "Reference" "RGB39"
 			(at 471.17 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7754,7 +7754,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D100")
+					(reference "RGB39")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880c355c-bc45-4ccd-afc7-66150479c87d")
-		(property "Reference" "D71"
+		(property "Reference" "RGB10"
 			(at 519.43 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +7842,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D71")
+					(reference "RGB10")
 					(unit 1)
 				)
 			)
@@ -7860,7 +7860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886563fe-b561-4dfb-85e0-25eece0cdff3")
-		(property "Reference" "D83"
+		(property "Reference" "RGB22"
 			(at 129.54 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7930,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D83")
+					(reference "RGB22")
 					(unit 1)
 				)
 			)
@@ -7948,7 +7948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c1f23a6-5bdd-40cf-b72a-68f1144a7a91")
-		(property "Reference" "D97"
+		(property "Reference" "RGB36"
 			(at 323.85 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8018,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D97")
+					(reference "RGB36")
 					(unit 1)
 				)
 			)
@@ -8036,7 +8036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca87699-79f4-4126-b0a5-abb34756b6ab")
-		(property "Reference" "D85"
+		(property "Reference" "RGB24"
 			(at 224.79 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,7 +8106,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D85")
+					(reference "RGB24")
 					(unit 1)
 				)
 			)
@@ -8124,7 +8124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc73f4b-d3fe-4bf6-adbb-b1f8a0748e83")
-		(property "Reference" "D119"
+		(property "Reference" "RGB58"
 			(at 421.64 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +8194,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D119")
+					(reference "RGB58")
 					(unit 1)
 				)
 			)
@@ -8291,7 +8291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9326d765-26ce-4492-8a09-b7fe09a8810b")
-		(property "Reference" "D94"
+		(property "Reference" "RGB33"
 			(at 176.53 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8361,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D94")
+					(reference "RGB33")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a3d1ec-54ea-40c3-b256-219ab34d6fa2")
-		(property "Reference" "D111"
+		(property "Reference" "RGB50"
 			(at 519.43 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +8608,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D111")
+					(reference "RGB50")
 					(unit 1)
 				)
 			)
@@ -8626,7 +8626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9946bcb0-b1e5-465c-91e5-ad51841ea767")
-		(property "Reference" "D118"
+		(property "Reference" "RGB57"
 			(at 372.11 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8696,7 +8696,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D118")
+					(reference "RGB57")
 					(unit 1)
 				)
 			)
@@ -8714,7 +8714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4a9a9c-f30f-4627-b2cc-2d3dc1075f16")
-		(property "Reference" "D62"
+		(property "Reference" "RGB1"
 			(at 77.47 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8784,7 +8784,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D62")
+					(reference "RGB1")
 					(unit 1)
 				)
 			)
@@ -8802,7 +8802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef911e1-d44f-4c8d-a3fe-1a6e5fa9a84c")
-		(property "Reference" "D95"
+		(property "Reference" "RGB34"
 			(at 224.79 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8872,7 +8872,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D95")
+					(reference "RGB34")
 					(unit 1)
 				)
 			)
@@ -8890,7 +8890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb5a092-5cc3-471e-9e0b-1a5985ceb77e")
-		(property "Reference" "D117"
+		(property "Reference" "RGB56"
 			(at 323.85 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8960,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D117")
+					(reference "RGB56")
 					(unit 1)
 				)
 			)
@@ -8978,7 +8978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a16fba56-2d0c-4e80-bdf6-34715ba16ebb")
-		(property "Reference" "D87"
+		(property "Reference" "RGB26"
 			(at 323.85 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,7 +9048,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D87")
+					(reference "RGB26")
 					(unit 1)
 				)
 			)
@@ -9066,7 +9066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a342dc7e-bce8-4d4e-b438-c7f5e8669404")
-		(property "Reference" "D63"
+		(property "Reference" "RGB2"
 			(at 127 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9136,7 +9136,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D63")
+					(reference "RGB2")
 					(unit 1)
 				)
 			)
@@ -9154,7 +9154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a684bbd4-4501-40b7-9011-6a2609796a9d")
-		(property "Reference" "D80"
+		(property "Reference" "RGB19"
 			(at 471.17 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9224,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D80")
+					(reference "RGB19")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a955cab9-0e0f-49b0-9e95-84bad09fb84b")
-		(property "Reference" "D66"
+		(property "Reference" "RGB5"
 			(at 274.32 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9393,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D66")
+					(reference "RGB5")
 					(unit 1)
 				)
 			)
@@ -9411,7 +9411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2aee44-ce75-4439-b27d-bdb281fdd388")
-		(property "Reference" "D105"
+		(property "Reference" "RGB44"
 			(at 224.79 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9481,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D105")
+					(reference "RGB44")
 					(unit 1)
 				)
 			)
@@ -9499,7 +9499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa2c3466-9ca9-442f-ab37-0b735851143f")
-		(property "Reference" "D102"
+		(property "Reference" "RGB41"
 			(at 77.47 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,7 +9569,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D102")
+					(reference "RGB41")
 					(unit 1)
 				)
 			)
@@ -9668,7 +9668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00bdfd6-7571-43ba-af50-1d2718e3dd3d")
-		(property "Reference" "D64"
+		(property "Reference" "RGB3"
 			(at 176.53 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9738,7 +9738,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D64")
+					(reference "RGB3")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e7ecfb-57e8-46ab-836a-d129bd8f0b85")
-		(property "Reference" "D88"
+		(property "Reference" "RGB27"
 			(at 372.11 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,7 +9826,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D88")
+					(reference "RGB27")
 					(unit 1)
 				)
 			)
@@ -9844,7 +9844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b843b6cc-49bd-4397-9542-d4bd67edc490")
-		(property "Reference" "D81"
+		(property "Reference" "RGB20"
 			(at 519.43 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9914,7 +9914,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D81")
+					(reference "RGB20")
 					(unit 1)
 				)
 			)
@@ -10095,7 +10095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd94ae8b-1897-44d5-ba88-09ccbdc4c727")
-		(property "Reference" "D103"
+		(property "Reference" "RGB42"
 			(at 129.54 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10165,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D103")
+					(reference "RGB42")
 					(unit 1)
 				)
 			)
@@ -10342,7 +10342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8c9ead-a777-4d4c-9ba8-00473732e8c3")
-		(property "Reference" "D74"
+		(property "Reference" "RGB13"
 			(at 176.53 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +10412,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D74")
+					(reference "RGB13")
 					(unit 1)
 				)
 			)
@@ -10592,7 +10592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5700387-6859-4bab-9eec-147bd93b7608")
-		(property "Reference" "D96"
+		(property "Reference" "RGB35"
 			(at 274.32 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10662,7 +10662,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D96")
+					(reference "RGB35")
 					(unit 1)
 				)
 			)
@@ -10758,7 +10758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dafe2d41-6e7e-4962-9064-ffd1fa388829")
-		(property "Reference" "D98"
+		(property "Reference" "RGB37"
 			(at 372.11 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +10828,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D98")
+					(reference "RGB37")
 					(unit 1)
 				)
 			)
@@ -10846,7 +10846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc31ef73-19b3-4031-9038-1a4858b250f9")
-		(property "Reference" "D116"
+		(property "Reference" "RGB55"
 			(at 274.32 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +10916,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D116")
+					(reference "RGB55")
 					(unit 1)
 				)
 			)
@@ -10934,7 +10934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fd6271-016c-4f4e-95a2-067bb6017149")
-		(property "Reference" "D67"
+		(property "Reference" "RGB6"
 			(at 323.85 49.4598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11004,7 +11004,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D67")
+					(reference "RGB6")
 					(unit 1)
 				)
 			)
@@ -11022,7 +11022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e885a5d3-c792-4765-bf8f-dcd68e17d250")
-		(property "Reference" "D75"
+		(property "Reference" "RGB14"
 			(at 224.79 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11092,7 +11092,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D75")
+					(reference "RGB14")
 					(unit 1)
 				)
 			)
@@ -11110,7 +11110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9464301-22f9-4952-8e58-133e40223a92")
-		(property "Reference" "D78"
+		(property "Reference" "RGB17"
 			(at 372.11 83.7498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11180,7 +11180,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D78")
+					(reference "RGB17")
 					(unit 1)
 				)
 			)
@@ -11198,7 +11198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d3fd50-857b-43d3-a17b-631f2b0bacd8")
-		(property "Reference" "D89"
+		(property "Reference" "RGB28"
 			(at 421.64 118.0398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11268,7 +11268,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D89")
+					(reference "RGB28")
 					(unit 1)
 				)
 			)
@@ -11286,7 +11286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee096ebf-6055-4833-b6d9-4e7d38fe2e65")
-		(property "Reference" "D107"
+		(property "Reference" "RGB46"
 			(at 323.85 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11356,7 +11356,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D107")
+					(reference "RGB46")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1003209-a3c2-43ae-87e0-26cdc93a8190")
-		(property "Reference" "D120"
+		(property "Reference" "RGB59"
 			(at 471.17 220.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11444,7 +11444,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D120")
+					(reference "RGB59")
 					(unit 1)
 				)
 			)
@@ -11702,7 +11702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb383c8c-6277-4825-b455-4e7260aaa521")
-		(property "Reference" "D109"
+		(property "Reference" "RGB48"
 			(at 421.64 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11772,7 +11772,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D109")
+					(reference "RGB48")
 					(unit 1)
 				)
 			)
@@ -11790,7 +11790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5b0c14-3e4d-437b-89dd-36fc7d478699")
-		(property "Reference" "D108"
+		(property "Reference" "RGB47"
 			(at 372.11 186.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11860,7 +11860,7 @@
 		(instances
 			(project "kicad"
 				(path "/11fba82a-089c-456a-8c54-00bc324c160a/cf32cf50-de33-4674-a29f-bd2532dc24fa"
-					(reference "D108")
+					(reference "RGB47")
 					(unit 1)
 				)
 			)
