@@ -4,6 +4,7 @@ INFO:
  - source: https://lapse.hackclub.com/user/@sakgdev14
  - tldr: me yapping while building keyboard
  - heading format: TITLE - START_DATE - START_TIME (took HRS_TOOK) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
+ - fun fact: it would be my very first mechanical keyboard and its self made >~<
 ------------
 
 ## Deciding keyboard - Aug 12 - 17:48
