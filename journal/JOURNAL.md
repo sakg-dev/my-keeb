@@ -3,7 +3,7 @@ INFO:
  - total logged hr: _
  - source: https://lapse.hackclub.com/user/@sakgdev14
  - tldr: me yapping while building keyboard
- - heading format: TITLE - START_DATE - START_TIME (took HRS MINS (- MINS, = HRS MINS (only if some gaps were in lapse))) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
+ - heading format: TITLE - START_DATE - START_TIME (took HRS MINS (#might be less than sum of lapse as i subtracted pauses i took#)) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
  - fun fact: it would be my very first mechanical keyboard and its self made >~<
 ------------
 
@@ -112,7 +112,7 @@ But soon i realized if i start trace from right to left, it would conflict with 
 Now power was done but many things were left like rgb data, gnd etc. I started routing the rgb data in out next, i took a normal trace and connected it with resistors then the rgb din. i had to add few vias while doing it bcz the rgb traces were conflicting with the column traces(as both were b.cu), but yeah i connected every rgbs' data input and output. btw while doing it, i saw sm data input or output pads weren't accepting the traces and i found out it was bcz of mistakes i had done in schematics but resolved it. Heres the img:
 ![](./imgs/rgb_din_out.png)
 
-## PCB Routing part 2 - Aug 19 - 15:43 pm (took xh ym) - [[vid1](https://lapse.hackclub.com/timelapse/hr0nfcHYQDM3), [vid2](https://lapse.hackclub.com/timelapse/d2yHIfOvApwa), [vid3](https://lapse.hackclub.com/timelapse/KGxY6Ut_EcXD), [vid4]()]
+## PCB Routing part 2 - Aug 19 - 15:43 pm (took 3h 39m) - [[vid1](https://lapse.hackclub.com/timelapse/hr0nfcHYQDM3), [vid2](https://lapse.hackclub.com/timelapse/d2yHIfOvApwa), [vid3](https://lapse.hackclub.com/timelapse/KGxY6Ut_EcXD), [vid4](https://lapse.hackclub.com/timelapse/35E6xPwcAyC_)]
 So now only GNDs were need to be connected but i found out, if we do GND fill, we don't need to manually connect all GNDS with each other. So after several(rlly) painful attempts(not recorded), i started by drawing a filled zone on both back and front copper layer, GND as net. I noticed several air pockets hence started adding vias there (in first did in b.cu then f.cu). also i noticed there were some ratsnest that were pointing to nowhere in top so added vias and did sm troubleshooting there too and ended up with 0 unrouted trace(actually idk why it was showing 1 but when ran drc, it was 0)
 
 While adding vias in f.cu for removing air pockets, i ran DRC checks to see issues and started resolving that but i wasn't able to resolve all as well as didn't remove all air pockets in f.cu as i closed laptop.
