@@ -3,7 +3,7 @@ INFO:
  - total logged hr: _
  - source: https://lapse.hackclub.com/user/@sakgdev14
  - tldr: me yapping while building keyboard
- - heading format: TITLE - START_DATE - START_TIME (took HRS_TOOK) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
+ - heading format: TITLE - START_DATE - START_TIME (took HRS MINS (- MINS, = HRS MINS (only if some gaps were in lapse))) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
  - fun fact: it would be my very first mechanical keyboard and its self made >~<
 ------------
 
@@ -100,3 +100,30 @@ Afterwards i placed the mounting holes on the edges and middle of the pcb.
 
 Now only capacitors and resistor was left, i wasn't sure where to place them so looked at others and found it would be near the switch(while maintaining the gap of 4 switched..). So while looking at the rgb matrix of schematics, started placing the capacitors and resistor(it was holy lagging while switching between schematics and pcb). Here is the image: 
 ![](./imgs/cmplt_unrouted_pcb.png)
+
+## Routing pcb - Aug 18 - 16:42 (took 4h 26m) - [[vid1](https://lapse.hackclub.com/timelapse/ouHZQnK8rh1N)]
+So after many failed attempts(that i didn't record), i started by routing the individual diodes and their switches, then i started connecting the rows but i notices, since i wanted the traces to pass through middle of switch, i need to have some space between switch mid which was taken by rgbs, hence i started moving rgbs lil bit down and connecting the traces with diodes. the traces were zig zag when i was passing it through rotated switch but ig thats ok. then i routed column traces. Heres the img:
+![](./imgs/rows_cols_routed.png)
+
+Ok now we had to route the rgbs and +5v across the pcb. At first i did lil bit of research as what way would be more efficient. Then I took a thick(~1mm) trace for +5v, and started it from the pico 40th pin and took it bottom then left and ended in the end of bottom left. My idea was to have a thick +5v traces then we branch it for every row. so after resolving sm mistakes, i started connecting the trace with the last row, used a via as rgbs needed blue traces(as they are flipped). 
+
+But soon i realized if i start trace from right to left, it would conflict with the schematics of rgbs bcz i had placed the capacitors by assuming the +5v trace from left to right. hence i removed the left +5V trace and brought it to right side then bottom right. I started branching it into rows, ig i kept the branches traces 0.8 mm and 0.5 for the final trace that connects to the rgb. At first jst connected with every rgbs then started connectin with capacitors then did bit rearrangement.
+
+Now power was done but many things were left like rgb data, gnd etc. I started routing the rgb data in out next, i took a normal trace and connected it with resistors then the rgb din. i had to add few vias while doing it bcz the rgb traces were conflicting with the column traces(as both were b.cu), but yeah i connected every rgbs' data input and output. btw while doing it, i saw sm data input or output pads weren't accepting the traces and i found out it was bcz of mistakes i had done in schematics but resolved it. Heres the img:
+![](./imgs/rgb_din_out.png)
+
+## PCB Routing part 2 - Aug 19 - 15:43 pm (took xh ym) - [[vid1](https://lapse.hackclub.com/timelapse/hr0nfcHYQDM3), [vid2](https://lapse.hackclub.com/timelapse/d2yHIfOvApwa), [vid3](https://lapse.hackclub.com/timelapse/KGxY6Ut_EcXD), [vid4]()]
+So now only GNDs were need to be connected but i found out, if we do GND fill, we don't need to manually connect all GNDS with each other. So after several(rlly) painful attempts(not recorded), i started by drawing a filled zone on both back and front copper layer, GND as net. I noticed several air pockets hence started adding vias there (in first did in b.cu then f.cu). also i noticed there were some ratsnest that were pointing to nowhere in top so added vias and did sm troubleshooting there too and ended up with 0 unrouted trace(actually idk why it was showing 1 but when ran drc, it was 0)
+
+While adding vias in f.cu for removing air pockets, i ran DRC checks to see issues and started resolving that but i wasn't able to resolve all as well as didn't remove all air pockets in f.cu as i closed laptop.
+
+then next day in morning, i started resolving rest of the drc issues. there was these two issues: Board edge clearance violation and thermal relief, ig there were 215 issues of these but even after doing research and asking few ppl, didn't solve it hence jst ignored these. Afterwards i removed the edge cuts which was rectangular and gave it an alice type shape and got sm issues which i resolved. then i added my avatar and name as silkscreen on the pcb. Heres the image:
+![](./imgs/silkscreen_added_pcb.png)
+
+Now i did sm research and started generating bom.csv then started removing the air pockets of f.cu.(finally). Heres the img:
+![](./imgs/air_pocket_rmvd_pcb.png)
+
+Now i realized i need to make the corners curved so watched a tutorial but while i was doing that i realized i messed up with diodes so had to redo the removal of air pocket as well as trouble shooting of drc errs. Then i made the corners curved. Ok then at last i added 3d models of switches then i exported it as gerber and zipped as `out.zip`. Heres the final pcb's 3d and normal img:
+![](./imgs/final_pcb_3d.png)
+![](./imgs/final_pcb.png)
+
