@@ -127,3 +127,5 @@ Now i realized i need to make the corners curved so watched a tutorial but while
 ![](./imgs/final_pcb_3d.png)
 ![](./imgs/final_pcb.png)
 
+## Case Designing
+
