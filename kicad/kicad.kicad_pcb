@@ -28863,7 +28863,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -29486,7 +29486,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -30547,7 +30547,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -31594,7 +31594,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -31610,7 +31610,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -32673,7 +32673,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -33298,7 +33298,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -35593,7 +35593,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -35609,7 +35609,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -39037,7 +39037,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -39053,7 +39053,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -39678,7 +39678,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -40727,7 +40727,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -40743,7 +40743,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -42855,7 +42855,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -42871,7 +42871,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -48883,7 +48883,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -49932,7 +49932,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -49948,7 +49948,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -50557,7 +50557,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -50573,7 +50573,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51198,7 +51198,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51820,8 +51820,9 @@
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
+			(opacity 0.9800)
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -52444,7 +52445,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -53947,7 +53948,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -54556,7 +54557,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -54572,7 +54573,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -55619,7 +55620,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -55635,7 +55636,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -57122,7 +57123,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -57138,7 +57139,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -57747,7 +57748,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -57763,7 +57764,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -58372,7 +58373,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -58388,7 +58389,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -60496,7 +60497,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -60512,7 +60513,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -62013,7 +62014,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -63500,7 +63501,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -63516,7 +63517,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -65644,7 +65645,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -66253,7 +66254,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -66269,7 +66270,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -66892,7 +66893,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -67501,7 +67502,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -67517,7 +67518,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -68126,7 +68127,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -68142,7 +68143,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -68749,7 +68750,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -68765,7 +68766,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -71315,7 +71316,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -71331,7 +71332,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -72098,7 +72099,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -72114,7 +72115,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -72723,7 +72724,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -72739,7 +72740,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -75544,7 +75545,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -75560,7 +75561,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -76167,7 +76168,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -76183,7 +76184,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -77246,7 +77247,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -78291,7 +78292,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -78307,7 +78308,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -79796,7 +79797,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -79812,7 +79813,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -80421,7 +80422,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -80437,7 +80438,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -81940,7 +81941,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -82549,7 +82550,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -82565,7 +82566,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -83174,7 +83175,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -83190,7 +83191,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -84677,7 +84678,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -84693,7 +84694,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -85302,7 +85303,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -85318,7 +85319,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -85943,7 +85944,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -86552,7 +86553,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -86568,7 +86569,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -88491,7 +88492,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -88507,7 +88508,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -89994,7 +89995,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz -180 -0 -0)
 			)
 		)
 		(model "${KIPRJMOD}/3d_files/g_pro_3_switch.stp"
@@ -90010,7 +90011,7 @@
 		)
 		(model "${KIPRJMOD}/3d_files/keycaps/keycap_1u.step"
 			(offset
-				(xyz 8.75 -205 -12)
+				(xyz 8.75 -205 -16)
 			)
 			(scale
 				(xyz 1 1 1)
