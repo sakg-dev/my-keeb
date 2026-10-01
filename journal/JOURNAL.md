@@ -127,5 +127,25 @@ Now i realized i need to make the corners curved so watched a tutorial but while
 ![](./imgs/final_pcb_3d.png)
 ![](./imgs/final_pcb.png)
 
-## Case Designing
+## Case Designing attempt 1 [[vid1](https://lapse.hackclub.com/timelapse/OvXzOiYZUe4G), [vid2](https://lapse.hackclub.com/timelapse/BVMXx6ve6AYw), [vid3](https://lapse.hackclub.com/timelapse/xVsu0WQh-wWo), [vid4](https://lapse.hackclub.com/timelapse/lH1MWFFoLUdn), [vid5](https://lapse.hackclub.com/timelapse/vZ_VEnhxBmsJ), [vid6](https://lapse.hackclub.com/timelapse/431a6qi_bVm1), [vid7](https://lapse.hackclub.com/timelapse/2cs6G5ezNLV6)]
+
+{*its my third attempt doing it but didn't record those..*}
+I started by following steps mentioned on guide, but was quickly lost, i spent 5 minutes figuring out how to import the 3d model exported from kicad which i had uploaded as document.
+
+But soon figured out, then grouped all componenets in assembly and moved to center and created context.
+then created a new sketch, cloned the borders of my keeb then did outward offset of 4mm and extruded it 5mm backward as base:
+![](./imgs/onshape_1.png)
+
+then i did the walls by making a new sketch and creating a border as of the base then inner border as inner offset of 3mm then extruded it 10mm up. there we go, we are done with bottom case for now:
+![](./imgs/onshape_2.png)
+
+Now we had to design the plate, so i created a new sketch with plane as face of our context and border as the border of outer wall and extruded as new as we wanted it a seperate part, we needed holes for the switch but the Linear Pattern method didn't work as i have alice design and different spaces so i started creating a diagonal line on my switched then finding its center point and creating a 14x14mm rectangle then swapped its position with the center of switch and if needed, rotate it, and then i did it for every switches manually. But noticed i had to create a seperate plane at switches height not the face of context so created a plane and selected it:
+![](./imgs/onshape_3.png)
+
+After this i realized there must be some gap between the pcb and bottom case(i was assuming it would be 0), so i selected the bottom case part and transformed it -5mm in Z axis, then i adjusted the measurements to make everything fit(you can see the correct measurements i end up using in the gist).
+
+Now since we are done with plate for now, i started researching about gasket mount and planned to use gasket strips of 3mm thickness.
+I saw in the diagram, i needed to make the plate lil smaller and give sm kind of holder where the gasket will be glued, SO i offseted the plates inward and then through manual work, started creating the tabs of 15x5mm for gasket on the center of edges(2 top, 1 left, 1 right and 4 bottom). Also i made sure there were some gaps between the case side and tabs so that they don't come in contact(though later realized it was very less..):
+~[](./imgs/onshape_4.png)
+
 
