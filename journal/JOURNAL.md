@@ -146,6 +146,32 @@ After this i realized there must be some gap between the pcb and bottom case(i w
 
 Now since we are done with plate for now, i started researching about gasket mount and planned to use gasket strips of 3mm thickness.
 I saw in the diagram, i needed to make the plate lil smaller and give sm kind of holder where the gasket will be glued, SO i offseted the plates inward and then through manual work, started creating the tabs of 15x5mm for gasket on the center of edges(2 top, 1 left, 1 right and 4 bottom). Also i made sure there were some gaps between the case side and tabs so that they don't come in contact(though later realized it was very less..):
-~[](./imgs/onshape_4.png)
+![](./imgs/onshape_4.png)
+
+
+Now we had bottom case and plate with holes for switches and gasket tabs, but i needed gap of 2mm between the bottom of plate and top of bottom case as i had to place the 3mm gasket strips there(33% compressed: 3 - (33% of 3) is ~2). i saw i had gap of 0.5mm, so i edit the transformed value from -5mm to -6.5mm so that now we had 2mm of gap.
+
+then i saw that the raspberry pi was touching the plate so in the sketch of plate, i drew the border of rasp pi, offset it 2mm then removed extra edges:
+![](./imgs/onshape_5.png)
+
+
+Then i created another plane, 2mm above the plate for top case and created a new sketch on that plane, then i copied the outward border of bottom case then i extruded the sketch by 5mm as new as we want seperate part. Afterwards i thought i needed all switch holes on top case as it was in plate so i copied the sketch of plane and pasted on top case's sketch, removed the gasket tabs, did sm adjustments and did outward offset to match the size of our border - took 2-3 attempts
+![](./imgs/onshape_6.png)
+
+
+After watching some referance images of top case, i realized i don't need indiviual holes for keycaps rather there will be big hole, hence i deleted all the switch holes from top case sketch.
+
+then in the sketch of top case, i drew inner holes like the ref(zig zag kinda) and adjusted it such that it doesn't conflict with the keycap and have some spaces(more than 14mm ig) also looks kinda cool:
+![](./imgs/onshape_7.png)
+
+
+now the front part of top case was and we had to work for walls. so i created a new sketch, i copied the border of top case and offseted it 5mm externally then did an extrude downward of 25 mm(as it was the total height of my keeb) and appended it with top case extrude:
+![](./imgs/onshape_8.png)
+
+
+then i did sm checks to make sure its not conflicting with any other parts then for usb opening, i created another sketch and added a rectangle of size 5x10mm in the center of usb port. then extruded it, selected remove with part 3(top case) as merge scope and depth be 5mm.
+
+soon i realized that i have keycaps of size more than 1u but the holes i had in top case were for 1u hence had to kinda recreate the holes and heres the final look:
+![](./imgs/onshape_9.png)
 
 
