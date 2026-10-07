@@ -161,7 +161,7 @@ Then i created another plane, 2mm above the plate for top case and created a new
 
 After watching some referance images of top case, i realized i don't need indiviual holes for keycaps rather there will be big hole, hence i deleted all the switch holes from top case sketch.
 
-then in the sketch of top case, i drew inner holes like the ref(zig zag kinda) and adjusted it such that it doesn't conflict with the keycap and have some spaces(more than 14mm ig) also looks kinda cool:
+then in the sketch of top case, i drew inner holes like the ref(zig zag kinda) and adjusted it such that it doesn't conflict with the keycap and have some spaces(more than 19mm ig) also looks kinda cool:
 ![](./imgs/onshape_7.png)
 
 
@@ -194,5 +194,76 @@ now we needed holes on the bottom case for the screw to pass. I thougt to get th
 
 
 WELP AFTER THESE ALL, I REALIZED I HAD MESSED UP IN MANY PLACES, LIKE WHERE I WAS THINKING TO PLACE THE SCREWS, THERE WAS THE PCB WHICH I HADN'T NOTICED, I HAD VERY LESS GAPS BETWEEN GASKET TABS AND THE OUTER WALL AND MANY OTHER MISTAKES HENCE I THOUGHT TO REATTEMPT D:
+
+
+## Final Case Designing: Prerequisite, start and essentials - Sep 18 - 21:33 (took Xh Ym) [[vid1](https://lapse.hackclub.com/timelapse/OkyDbiONVOZg), [vid2](https://lapse.hackclub.com/timelapse/_BrwjxEgn1dI), [vid3](https://lapse.hackclub.com/timelapse/OXWLNhOe6tsM)]
+
+Soooo yeh ts gonna be last attempt for sure.. Ts time i would use more systematic and accurate ways aaaaaaaaaa
+
+Very first thing i thought to do was to use keycaps on my pcb so that i could get correct idea of dimensions, hence i downloaded the cad models of all size of keycaps from grabcad. Since it was a single file for all keycaps, i seperated the required keycaps and exported manually. Then in footprint editor, i added 1u keycap in the footprint of all switches.
+
+then i opened pcb editor and started changing the keycap models of switches which were for bigger keycaps(like 1.5u etc). It was kinda time taking process as i had to do try and err to see if the keycap was in correct position and orientation or not: 
+![](./imgs/case_1.png)
+
+
+Then i exported the step file and gerber again. Created a new document in onshape.
+
+As previous, uploaded the step model in the document then in assembly, grouped all components together, moved to center and created a new part studio with the context of it.
+
+btw this time i would write the name of sketches, extrude, plains etc for clarity :D
+
+Created first sketch, cloned the borders of pcb and ofsetted 8mm outwards then extruded the sketch 5mm downwards, creating a base.
+
+Created another sketch for walls, cloned the border of base created one more rectangle with inward offset of 3mm. extruded the wall 10mm.
+
+Then selected the part 1(base and wall), transformed and moved to -5 in z axis, creating a 5mm gap between the pcb and base:
+![](./imgs/case_2.png)
+
+Now we were done with bottom case for now so created a plane, face of context 1 as entity and did offset of 4mm for the plate. Created a new sketch on the plate and cloned the border of pcb. Then after few checks, Now i had to add holes for the switches.
+
+But it was kinda like a problem bcz for creating holes of 14x14mm i needed to know the center of switch but since there were keycaps on top of swiches, i couldn't do that also the center of keycaps weren't always the center of switches :(
+So after some troubleshooting, i got to know that i was able to control the tranperency of specific components in assembly so yeh did that and was able to access the switch.
+So through that same painful manual way as i did previously, i created 14x14mm holes for all the switches.
+
+Then i increased the visibility of keycaps again, extruded the plate sketch by 1.5mm as new and heres the look:
+![](./imgs/case_3.png)
+
+
+Afterwards, i edited the plate sketch on the center of left side, i created a rectangle of 15x5mm as gasket tabs and kept its center 4mm away from the plate side(2.5mm for the tabs and 1.5mm for the pipe). Also i created the 2 pipes on 2 sides of the gasket tab attached with the plate.
+
+Then i repeated the gasket tabs for other sides -- 2 on top, 1 on sides, 4 on bottom.
+![](./imgs/case_4.png)
+
+Then i extended the inner wall of bottom case from 3mm offset to 6.5 so that we got enough space for the screw to fit.
+
+Also i made the offset 3.3 mm instead of 4mm for the plate plane so that switched sits correctly in plate and transformed the bottom case(part 1) from 5mm to to 7.2 mm such that now we had gap of 2.01 mm which was exactly 33% compression of our 3mm gasket strips!
+
+Then on the sketch of plate, i cloned border of pico and offset it 1mm outward and connected with the plate sketches such that now we had hole for pico too:
+![](./imgs/case_5.png)
+
+
+So once we were done with bottom case and plate, it was time for the top case so i created a plane with offset 2.01mm from face of plate then created a sketch on the plane and copied the border of bottom case and extruded the sketch by 5mm as usual. 
+
+Then i defined the polygons through lines for the holes in the top case sketch while keeping the keycaps size, distance and other things in mind, tbh it was easier and more accurate here as i had the 3d models of the keycap.
+
+Then for the top case wall, i created anothe sketch in the face of top case, copied borders of top case and made an offset of 5mm outwards. And extruded it downwards ~25mm in part 3 such that it coverts whole keyboard like shoebox.
+
+After that i created a new sketch on the side of wall and i found the center of usb port and created a rectangle of 10x5mm for usb port opening and extruded it 5mm and remove in part 3:
+![](./imgs/case_6.png)
+
+
+So now since we are done with top and bottom case and plate, we had to work on screw thingies again :>, so i created a new sketch on bottom face of top case added circles of diameter 5mm for plastic pillars, though didn't add in center of pcb this time as we didn't have any hole there.. Anyways after that i extruded the sketch 4mm downwards.
+
+Then i created another sketch on face of the cylindrical pillar we js created, for the holes for heatset inserts. On the same centers as the pillars, i created cirles of diameter 3.6mm then extruded the sketch by 4.2mm and selected remove:
+![](./imgs/case_7.png)
+
+
+Now i had to do screw things for bottom case, here there were 2 parts; the head and the body.
+For body first, i created a new sketch on bottom face of bottom case and selected the top case holes, clones all and resize them to 2.4mm. Then i extruded the sketch, 15mm and remove.
+
+Now for the head, i created another sketch on bottom face of bottom case and js like previous, cloned the circles but resized them to 3.8 mm then extruded it to 10.5mm remove(which i found through sm calculations mentioned in steps in gist):
+
+![](./imgs/case_8.png)
+
 
 
