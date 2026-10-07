@@ -175,3 +175,16 @@ soon i realized that i have keycaps of size more than 1u but the holes i had in 
 ![](./imgs/onshape_9.png)
 
 
+Now since we were done with all three parts(top and bottom case, and plate), i had to work on the screw thingies so that i can assemble them and disassembble as my will. I thought of 2 steps: first is adding plastic pillars of diameter 5mm then screw hole inside it as these holes were supposed to be in middle between the wall and empty area.
+
+hence i created a new sketch in the face of bottom case, then on all side, i created a circle of diameter of 5mm and also in mid(as i thought it would be a good idea, but i had to add a hole in plate too). then i extruded it upward 15 mm that it comes in same level as top of walls of my bottom case:
+![](./imgs/onshape_10.png)
+
+
+then for top case pillar, created another sketch in face of top case, and create circles same as did for bottom case pillars of same diameter and extruded downward 9mm(5mm for the top case and 4mm as extended):
+![](./imgs/onshape_11.png)
+
+
+Now once we had pillars, i started creating holes for heat seat thingy. i created a new sketch on bottom face of top case pillar. i created circle of 3.6mm diameter in the centers of the pillars and extruded inside 4mm so that the heatset would sit there. 
+![](./imgs/onshape_12.png)
+
