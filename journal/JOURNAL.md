@@ -196,7 +196,7 @@ now we needed holes on the bottom case for the screw to pass. I thougt to get th
 WELP AFTER THESE ALL, I REALIZED I HAD MESSED UP IN MANY PLACES, LIKE WHERE I WAS THINKING TO PLACE THE SCREWS, THERE WAS THE PCB WHICH I HADN'T NOTICED, I HAD VERY LESS GAPS BETWEEN GASKET TABS AND THE OUTER WALL AND MANY OTHER MISTAKES HENCE I THOUGHT TO REATTEMPT D:
 
 
-## Final Case Designing: Prerequisite, start and essentials - Sep 18 - 21:33 (took Xh Ym) [[vid1](https://lapse.hackclub.com/timelapse/OkyDbiONVOZg), [vid2](https://lapse.hackclub.com/timelapse/_BrwjxEgn1dI), [vid3](https://lapse.hackclub.com/timelapse/OXWLNhOe6tsM)]
+## Final Case Designing Part 1: Prerequisite, start and essentials - Sep 18 - 21:33 (took 7h 19m) [[vid1](https://lapse.hackclub.com/timelapse/OkyDbiONVOZg), [vid2](https://lapse.hackclub.com/timelapse/_BrwjxEgn1dI), [vid3](https://lapse.hackclub.com/timelapse/OXWLNhOe6tsM)]
 
 Soooo yeh ts gonna be last attempt for sure.. Ts time i would use more systematic and accurate ways aaaaaaaaaa
 
@@ -266,4 +266,32 @@ Now for the head, i created another sketch on bottom face of bottom case and js 
 ![](./imgs/case_8.png)
 
 
+## Final Case Designing Part 2: Some extra works and Decorations - Sep 22 - 10:19 (took Xh Ym) [[vid1](https://lapse.hackclub.com/timelapse/dU-ucpDa1ofi), [vid2](https://lapse.hackclub.com/timelapse/h_aeIV51l2e1), [vid3](https://lapse.hackclub.com/timelapse/P9Fk4AefJ6MD), [vid4](https://lapse.hackclub.com/timelapse/Xja5IlxoAyuc)]
 
+
+Guess what? i messed up once more ;p, i forgot adding the holes for stabalizers, so i went to one of the plate generator site, pasted the layout of my keeb and got the dxf file. created a new sketch on the face of plate and selected dfx and matched the positions of all holes then i deleted every thing other than the holes of stabalizers then i posted the sketch of stabalizers in the sketch of plate and bingo we got it:
+![](./imgs/case_9.png)
+
+
+Now we were done with all the things and the final work was left: Decoration. So I had few ideas which i did in following.
+
+First was the low topology kinda rugged surface on top case as it was too plain, so i started recreating that in blender to get the taste then i tried to do the same thing in onshape but tbh i didn't find any similar methods as it was in blender :(
+
+So after some external helps, i got to know that we could use lofts and surface to create the rugged and low poly surface!
+
+After watching some tutorials, i moved to an experiment document in onshape and started creating the rugged, low poly surface there, what i did was that i created a plane with some upward offset and added lines, essentially forming a polygon kinda with many segments around the keyboard in the center then created another sketch and there started connecting the edges of top case and the new line we created through loft surface, and like that covered entire top surface and tbh it was looking so cool, i regretted why i was doin it in experiment doc not real one lel.
+
+But then there was a problem: i had created rugged surfaces on top of normal surface but the space between it was negative or empty, it was supposed to be filled, for that after sm research, got to know that i had to use enclosure for it.
+
+So i opened the main doc, did the same things with the plate sketch and other and got this:
+![](./imgs/case_10.png)
+
+
+
+After this, i wanted to add the nodes with lines kinda thing as we see in the pcb so experimented with that but didn't work.
+
+Next thing i wanted to add were some hacky texts in the front wall in top case, So used Surface text to add texts, since i wanted the single line texts in more than one surface(with different angle), i had to somehow split the text and place them such that it feels they are part of same thing -- had to do it manually was tf hard
+
+I added some nixos, gpl, rust and sm other ref texts XD, Also i bolded the text and here is the final look of the keyboard:
+![](./imgs/case_11.png)
+![](./imgs/case_12.png)
