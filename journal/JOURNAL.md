@@ -185,6 +185,14 @@ then for top case pillar, created another sketch in face of top case, and create
 ![](./imgs/onshape_11.png)
 
 
-Now once we had pillars, i started creating holes for heat seat thingy. i created a new sketch on bottom face of top case pillar. i created circle of 3.6mm diameter in the centers of the pillars and extruded inside 4mm so that the heatset would sit there. 
+Now once we had pillars, i started creating holes for heat seat thingy. i created a new sketch on bottom face of top case pillar. i created circle of 3.6mm diameter in the centers of the pillars and extruded and remove 4.2mm so that the heatset would sit there. 
 ![](./imgs/onshape_12.png)
+
+
+now we needed holes on the bottom case for the screw to pass. I thougt to get the screw from bottom to top. Hence i created a new sketch on the bottom face of bottom case, created circles of diameter 5mm and matched its position as the pillars then downscaled it to 2.4mm as the screw pipe would be nearly 2mm ig. Then i extruded it 15mm upward, selected remove and yeh we got the first hole, then created another sketch on the same face and with the same centers as of the hole, created another circles of 3.8mm for keeping the head of screw then extruded the sketch 11 mm upward and remove:
+![](./imgs/onshape_13.png)
+
+
+WELP AFTER THESE ALL, I REALIZED I HAD MESSED UP IN MANY PLACES, LIKE WHERE I WAS THINKING TO PLACE THE SCREWS, THERE WAS THE PCB WHICH I HADN'T NOTICED, I HAD VERY LESS GAPS BETWEEN GASKET TABS AND THE OUTER WALL AND MANY OTHER MISTAKES HENCE I THOUGHT TO REATTEMPT D:
+
 
