@@ -8,17 +8,17 @@ A 60% alice type tactile keyboard, properties:
 ### Imgs:
 - Schematics And PCB:
     - Schematics:
-        - Main: ![](/journal/imgs/readme_final_main_schematics.png)
-        - Switches: ![](/journal/imgs/readme_final_switches_schematics.png)
-        - RGBs: ![](/journal/imgs/readme_final_rgbs_schematics.png)
+        - Main: ![](/imgs/readme_final_main_schematics.png)
+        - Switches: ![](/imgs/readme_final_switches_schematics.png)
+        - RGBs: ![](/imgs/readme_final_rgbs_schematics.png)
     - PCB:
-        - F.Cu: ![](/journal/imgs/readme_final_pcb_fcu.png)
-        - B.Cu: ![](/journal/imgs/readme_final_pcb_bcu.png)
-        - F.Cu: ![](/journal/imgs/readme_final_pcb_3d.png)
+        - F.Cu: ![](/imgs/readme_final_pcb_fcu.png)
+        - B.Cu: ![](/imgs/readme_final_pcb_bcu.png)
+        - F.Cu: ![](/imgs/readme_final_pcb_3d.png)
 - Onshape:
     - Final:
-        - ![](/journal/imgs/case_11.png)
-        - ![](/journal/imgs/case_12.png)
+        - ![](/imgs/case_11.png)
+        - ![](/imgs/case_12.png)
 
 ## Development And Output Files
 - Layout: [layout_v1.json](/layout/layout_v1.json)
@@ -32,16 +32,16 @@ A 60% alice type tactile keyboard, properties:
 [BOM.csv](/BOM.csv)
 | Part                             | Quantity               | Shown Price    | Link                                                                                            |
 |----------------------------------|------------------------|----------------|-------------------------------------------------------------------------------------------------|
-| PCB                              | 5(minimum site allows) | $40            | JLCPCB - [img](/journal/imgs/pcb.png)                                                           |
+| PCB                              | 5(minimum site allows) | $40            | JLCPCB - [img](/imgs/pcb.png)                                                                   |
 | Raspberry Pi Pico                | 1                      | $4             | https://robu.in/product/raspberry-pi-pico/                                                      |
 | 1N4148 Diodes                    | 61                     | $1.5           | https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/                            |
 | Capacitor 470uF                  | 1                      |                |                                                                                                 |
 | Capacitors 100nF                 | 12                     |                |                                                                                                 |
 | Resistor 300 ohm                 | 1                      |                |                                                                                                 |
 | SK6812 MINI-E                    | 61                     | $5.5           | https://www.etstore.in/products/e9974?variant=48993209319675                                    |
-| GATERON G Pro 3.0 Brown Switches | 75(2 packs - each 35)  | $41            | https://stackskb.com/store/gateron-hotswap-sockets/ - [img](/journal/imgs/switches.png)         |
+| GATERON G Pro 3.0 Brown Switches | 75(2 packs - each 35)  | $41            | https://stackskb.com/store/gateron-hotswap-sockets/ - [img](/imgs/switches.png)                 |
 | Kailh hot swap socket            | 61                     | $6.3           | https://stackskb.com/store/gateron-hotswap-sockets/                                             |
-| Keycaps set                      | 61                     | $79            | [img](/journal/imgs/keycaps.png)                                                                |
+| Keycaps set                      | 61                     | $79            | [img](/imgs/keycaps.png)                                                                        |
 | Stabalizers 2u                   | 4                      | $4.8           | https://www.gateron.com/products/gateron-pcb-mounted-stabilizer?VariantsId=10208                |
 | Stabalizer 3u                    | 1                      | $3             | https://shockport.ca/products/cherry-pcb-mount-stabilizers                                      |
 | Gasket strip roll                | 1                      | $2.3           | https://www.amazon.in/Aicon-Sponge-Rubber-Adhesive-Insulation/dp/B0DRTJMKD6/                    |
@@ -52,7 +52,7 @@ A 60% alice type tactile keyboard, properties:
 | Total                            |                        | $193           |                                                                                                 |
 
 ## Journal
-See [JOURNAL.md](journal/JOURNAL.md)
+See [JOURNAL.md](/JOURNAL.md)
 
 ## AI usage
 Used ai to know more about how a mechanical keyboard works under the hood, measurements i should use, design inspiration, component links and what would be best for me
