@@ -1,10 +1,10 @@
 ------------
 INFO:
- - total logged hr: _
+ - total logged hr: 52h 53m (named as my-keeb, keeb-2 and keep-2 in hackatime -- rest time are for writing journals )
  - source: https://lapse.hackclub.com/user/@sakgdev14
  - tldr: me yapping while building keyboard
  - heading format: TITLE - START_DATE - START_TIME (took HRS MINS (#might be less than sum of lapse as i subtracted pauses i took#)) - [TIMELAPSE_VID1, TIMELAPSE_VID2....]
- - fun fact: it would be my very first mechanical keyboard and its self made >~<
+ - fun fact: it would be my very first mechanical keyboard and its self made UwU
 ------------
 
 ## Deciding keyboard - Aug 12 - 17:48
@@ -266,8 +266,7 @@ Now for the head, i created another sketch on bottom face of bottom case and js 
 ![](./imgs/case_8.png)
 
 
-## Final Case Designing Part 2: Some extra works and Decorations - Sep 22 - 10:19 (took Xh Ym) [[vid1](https://lapse.hackclub.com/timelapse/dU-ucpDa1ofi), [vid2](https://lapse.hackclub.com/timelapse/h_aeIV51l2e1), [vid3](https://lapse.hackclub.com/timelapse/P9Fk4AefJ6MD), [vid4](https://lapse.hackclub.com/timelapse/Xja5IlxoAyuc)]
-
+## Final Case Designing Part 2: Some extra works and Decorations - Sep 22 - 10:19 (took 6h 39m) [[vid1](https://lapse.hackclub.com/timelapse/dU-ucpDa1ofi), [vid2](https://lapse.hackclub.com/timelapse/h_aeIV51l2e1), [vid3](https://lapse.hackclub.com/timelapse/P9Fk4AefJ6MD), [vid4](https://lapse.hackclub.com/timelapse/Xja5IlxoAyuc)]
 
 Guess what? i messed up once more ;p, i forgot adding the holes for stabalizers, so i went to one of the plate generator site, pasted the layout of my keeb and got the dxf file. created a new sketch on the face of plate and selected dfx and matched the positions of all holes then i deleted every thing other than the holes of stabalizers then i posted the sketch of stabalizers in the sketch of plate and bingo we got it:
 ![](./imgs/case_9.png)
